@@ -1,0 +1,250 @@
+{
+ "_help": "status: exhibit(전시) / available(판매 중) / reserved(예약) / sold(판매 완료). 가격과 링크는 비워두면 표시 안 됨.",
+ "dolls": {
+  "01": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "02": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "03": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "04": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "05": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "06": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "07": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "08": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "09": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "10": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "11": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "12": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "13": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "14": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "15": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "16": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "17": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "18": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "19": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "20": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "21": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "22": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "23": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "24": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "25": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "26": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "27": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "28": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "29": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "30": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "31": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "32": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "33": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "34": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  },
+  "35": {
+   "status": "exhibit",
+   "price_krw": null,
+   "price_usd": null,
+   "smartstore": "",
+   "etsy": ""
+  }
+ }
+}

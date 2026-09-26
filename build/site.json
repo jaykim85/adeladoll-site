@@ -1,0 +1,18 @@
+{
+ "_help": "비어 있는 값은 사이트에 표시되지 않습니다. 값을 채우고 python build.py 를 다시 실행하세요.",
+ "domain": "https://adeladoll.com",
+ "instagram": "adela_artdoll",
+ "smartstore_url": "",
+ "etsy_url": "",
+ "email": "",
+ "phone": "",
+ "address_ko": "",
+ "address_en": "",
+ "hours_ko": "",
+ "hours_en": "",
+ "map_url": "",
+ "biz_name": "",
+ "biz_owner": "",
+ "biz_reg_no": "",
+ "mail_order_no": ""
+}
