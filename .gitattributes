@@ -1,0 +1,6 @@
+# 줄바꿈 통일 (Windows에서 LF/CRLF 경고 방지)
+* text=auto eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.zip binary
