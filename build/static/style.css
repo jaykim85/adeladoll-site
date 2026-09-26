@@ -160,3 +160,4 @@ dl.terms dd{margin:0;color:var(--ink-2)}
   .pn{font-size:1rem}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.maplink{color:var(--accent);margin-left:6px;font-size:.9rem;white-space:nowrap}

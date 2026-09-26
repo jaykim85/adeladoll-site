@@ -112,6 +112,9 @@ def page(lang, path, title, desc, body, og_img="og-home.jpg", alt_path=None, ext
     bi = [(t["biz_name"], SITE["biz_name"]), (t["biz_owner"], SITE["biz_owner"]), (t["biz_reg"], SITE["biz_reg_no"]), (t["biz_mail"], SITE["mail_order_no"])]
     bi = [x for x in bi if x[1]]
     if bi: foot_biz = '<p class="biz">' + " / ".join(f"{e(k)} {e(v)}" for k, v in bi) + "</p>"
+    verify = ""
+    if SITE.get("google_site_verification"): verify += f'<meta name="google-site-verification" content="{e(SITE["google_site_verification"])}">\n'
+    if SITE.get("naver_site_verification"): verify += f'<meta name="naver-site-verification" content="{e(SITE["naver_site_verification"])}">\n'
     return f"""<!doctype html>
 <html lang="{lang}">
 <head>
@@ -131,7 +134,7 @@ def page(lang, path, title, desc, body, og_img="og-home.jpg", alt_path=None, ext
 <meta property="og:image" content="{SITE['domain']}/assets/img/{og_img}">
 <meta property="og:locale" content="{'ko_KR' if lang=='ko' else 'en_US'}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+{verify}<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?{fonts}&display=swap">
 <link rel="stylesheet" href="/assets/style.css">
@@ -195,7 +198,11 @@ def home(lang):
 {visit_block(lang)}"""
     ld = {"@context": "https://schema.org", "@type": "Store", "name": "Adela Art Doll", "url": SITE["domain"] + url(lang),
           "image": SITE["domain"] + "/assets/img/og-home.jpg", "sameAs": [f"https://www.instagram.com/{SITE['instagram']}/"], "description": t["site_desc"]}
-    if SITE.get("address_" + lang): ld["address"] = SITE["address_" + lang]
+    if SITE.get("address_ko"):
+        ld["address"] = {"@type": "PostalAddress", "streetAddress": "경의로256번길 52" if lang == "ko" else "52, Gyeongui-ro 256beon-gil",
+                         "addressLocality": "고양시 일산동구" if lang == "ko" else "Ilsandong-gu, Goyang-si",
+                         "addressRegion": "경기도" if lang == "ko" else "Gyeonggi-do", "addressCountry": "KR"}
+    if SITE.get("opening_hours_schema"): ld["openingHours"] = SITE["opening_hours_schema"]
     head = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>"
     return page(lang, "", "", t["site_desc"], body, extra_head=head)
 
@@ -204,7 +211,8 @@ def visit_block(lang, full=False):
     rows = []
     if SITE.get("address_" + lang):
         a = e(SITE["address_" + lang])
-        if SITE.get("map_url"): a += f' <a href="{e(SITE["map_url"])}" target="_blank" rel="noopener">{e(t["v_map"])}</a>'
+        mu = SITE.get("map_url_" + lang) or SITE.get("map_url")
+        if mu: a += f' <a class="maplink" href="{e(mu)}" target="_blank" rel="noopener">{e(t["v_map"])}</a>'
         rows.append((t["v_addr"], a))
     if SITE.get("hours_" + lang): rows.append((t["v_hours"], e(SITE["hours_" + lang])))
     if SITE.get("email"): rows.append((t["v_email"], f'<a href="mailto:{e(SITE["email"])}">{e(SITE["email"])}</a>'))
