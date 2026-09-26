@@ -5,6 +5,7 @@
     "name": "독일 앤틱 원본",
     "ids": [
      2,
+     7,
      30,
      33,
      35
@@ -63,12 +64,6 @@
      29,
      31,
      32
-    ]
-   },
-   {
-    "name": "확인 중",
-    "ids": [
-     7
     ]
    }
   ],
@@ -135,11 +130,11 @@
      ],
      [
       "제작 시기",
-      "확인 중"
+      "1990년대 초"
      ],
      [
       "크기",
-      "확인 중"
+      "52 cm"
      ],
      [
       "출품",
@@ -154,7 +149,7 @@
      "D.A.G(Doll Artisan Guild)는 1977년 미국 뉴욕주 오네온타(Oneonta)에서 밀드레드 실리(Mildred Seeley)가 창립한 포슬린 인형 제작자들의 국제 조직입니다. 앤틱 인형의 정확한 복제와 인형 제작 교육을 목적으로 하며, 세계 각지에서 인증 강사가 진행하는 세미나와 'Certified Doll Artisan', 'Master of Dollmaking' 같은 단계별 자격 과정을 운영합니다.",
      "D.A.G 국제 대회는 옆에 놓인 인형과 단순 비교하는 방식이 아니라, 정해진 기준에 따라 자격을 갖춘 심사위원이 채점하는 방식으로 진행됩니다. 앤틱 복제, 모던 돌, 오리지널 조각, 의상 부문 등으로 나뉘며 최고상인 'Millie'는 창립자의 이름에서 따온 것입니다. 1990년대에는 회원이 12,500명에 이르렀고, 오네온타에서 열린 대회에는 세계 각지에서 최대 1,000명의 제작자가 모였습니다."
     ],
-    "pending": "제작 연도와 크기는 확인 중입니다."
+    "pending": ""
    },
    "2": {
     "no": 2,
@@ -207,15 +202,15 @@
      ],
      [
       "몰드",
-      "확인 중"
+      "몰드 디자인(원형 설계) Kammer & Reinhardt"
      ],
      [
       "제작 시기",
-      "확인 중"
+      "1900-1920년"
      ],
      [
       "크기",
-      "확인 중"
+      "48 cm"
      ]
     ],
     "about": [
@@ -226,7 +221,7 @@
      "케머 & 라인하르트는 1886년 독일 튀링겐 발터스하우젠(Waltershausen)에서 조각가 에른스트 케머와 사업가 프란츠 라인하르트가 세운 회사입니다. 1893년 시카고, 1904년 세인트루이스 만국박람회에서 수상했고, 1902년 하인리히 한트베르크 공장을 인수하면서 지몬 & 할빅과 인연을 맺어 이후 헤드를 공급받았습니다. 그래서 이 시기 인형에는 'K (별) R'과 'Simon & Halbig'가 함께 새겨져 있습니다. 1909년에는 '캐릭터 돌(Charakterpuppe)' 상표를 등록하고 실제 아이의 얼굴을 본뜬 몰드 100 '카이저 베이비'를 내놓아 인형 역사에 큰 전환점을 만들었습니다.",
      "지몬 & 할빅은 1869년 그레펜하인(Grafenhain)에서 빌헬름 지몬과 카를 할빅이 창립했으며, 1875년부터 인형 헤드를 만들었습니다. 뛰어난 조각과 은은한 채색, 고급 비스크로 유명해 케머 & 라인하르트뿐 아니라 한트베르크, 베르크만, 드레셀 등 독일 회사와 프랑스의 쥐모(Jumeau), SFBJ에도 헤드를 공급했습니다. 1920년 케머 & 라인하르트에 인수되었습니다."
     ],
-    "pending": "앤틱 원본인지 복제인지, 몰드 번호와 제작 시기는 확인 중입니다."
+    "pending": "앤틱 원본인지 복제인지, 몰드 번호는 확인 중입니다."
    },
    "4": {
     "no": 4,
@@ -251,7 +246,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "50 cm"
      ]
     ],
     "about": [
@@ -283,11 +278,11 @@
      ],
      [
       "제작 시기",
-      "확인 중"
+      "1900-1930년"
      ],
      [
       "크기",
-      "확인 중"
+      "47 cm"
      ]
     ],
     "about": [
@@ -298,7 +293,7 @@
      "드레셀 가문의 완구 사업은 1700년대까지 거슬러 올라갑니다. 1757년 조네베르크의 '드레셀 호프'를 인수해 완구업을 이어갔으며, 튀링겐 완구 산업의 초기 대표 주자 중 하나로 꼽힙니다. 1873년 형제 쿠노(1829-1893)와 오토(1831-1907)가 회사를 물려받으면서 지금의 이름이 되었고, 1875년에는 날개 달린 투구가 그려진 'Holz-Masse' 상표를 등록했습니다.",
      "비스크뿐 아니라 셀룰로이드, 컴포지션, 왁스, 나무 등 다양한 재료의 인형을 만들었고 'Jutta'(1907), 'Fifth Ave Dolls'(1903) 같은 상표를 사용했습니다. 1914년 큰 화재를 겪고 재건했으며 2차 세계대전 무렵까지 운영되었습니다."
     ],
-    "pending": "앤틱 원본인지 복제인지, 몰드 번호와 제작 시기는 확인 중입니다."
+    "pending": "앤틱 원본인지 복제인지, 몰드 번호는 확인 중입니다."
    },
    "6": {
     "no": 6,
@@ -323,7 +318,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "49 cm"
      ]
     ],
     "about": [
@@ -338,39 +333,39 @@
    },
    "7": {
     "no": 7,
-    "title": "(이름 확인 중)",
-    "subtitle": "비스크 돌",
+    "title": "Armand Marseille 390",
+    "subtitle": "독일 앤틱 원본 비스크 돌",
     "info": [
      [
-      "이름",
-      "확인 중"
+      "제작사",
+      "Armand Marseille (독일 튀링겐 Koppelsdorf)"
      ],
      [
-      "분류",
-      "확인 중"
-     ],
-     [
-      "제작사 / 작가",
-      "확인 중"
+      "몰드",
+      "No. 390"
      ],
      [
       "제작 시기",
-      "확인 중"
+      "1905-1920년경"
      ],
      [
       "크기",
-      "확인 중"
+      "약 48 cm"
+     ],
+     [
+      "종류",
+      "비스크 헤드 돌, 앤틱 원본"
      ]
     ],
     "about": [
      "금발 곱슬머리에 하늘색 망사 드레스를 입은 인형입니다. 흰 레이스로 마무리한 소매와 앞판, 자수 장식이 정성스럽고, 파란 눈과 발그레한 볼이 아이다운 인상을 줍니다.",
-     "이 인형의 제작사와 시기 등 상세 정보는 소장 기록을 확인하는 중입니다."
+     "독일 아르망 마르세유(Armand Marseille)의 몰드 390으로 만든 앤틱 원본으로, 1905-1920년경에 제작되었습니다. 390은 아르망 마르세유가 가장 많이 만든 몰드로, 소켓 헤드를 관절식 컴포지션 바디에 얹은 전형적인 '돌리 페이스' 소녀 인형입니다."
     ],
     "bg": [
-     "비스크 돌은 유약을 바르지 않고 구운 도자기(비스크)로 만든 인형입니다. 유약 없이 구워 표면이 매끈한 광택 대신 살결 같은 무광 질감을 가지며, 1860년대부터 1900년대 초까지 프랑스와 독일에서 전성기를 누렸습니다. 대개 헤드만 비스크이고 몸은 천, 가죽, 컴포지션(톱밥과 풀을 섞어 굳힌 재료) 등으로 만듭니다.",
-     "인형의 신원은 보통 목 뒤나 머리 뒤쪽의 각인으로 확인합니다. 앤틱 인형에는 제작사 마크, 몰드 번호, 크기 번호가 새겨져 있고, 현대 복제 인형에는 앤틱 몰드의 각인과 함께 제작한 작가의 이니셜과 연도가 새겨져 있습니다. 이 인형도 각인을 확인하면 정확한 출처를 알 수 있을 것입니다."
+     "몰드 390은 1900년경부터 1930년대까지 수십 년 동안 대량 생산되어, 오늘날 가장 흔히 만날 수 있는 독일 앤틱 인형이 되었습니다. 목 뒤에는 'Armand Marseille / Germany / 390 / A (크기) M' 형식의 마크가 있으며, 유리 슬립 아이와 치아가 보이는 열린 입, 모헤어 가발이 기본 사양입니다. 같은 회사의 370이 숄더 헤드로 가죽 바디에 쓰인 것과 달리, 390은 소켓 헤드로 컴포지션 바디에 끼워 사용했습니다.",
+     "아르망 마르세유는 1856년 러시아 상트페테르부르크에서 태어나 1860년대 독일로 이주했고, 1885년 튀링겐 쾨펠스도르프의 도자기 공장을 인수해 인형 헤드를 만들기 시작했습니다. 전성기에는 하루 약 1,000개의 헤드를 생산한 세계 최대급 제작사였으며, 1919년 에른스트 호이바흐와 합병했다가 1932년 분리된 뒤 곧 생산을 마쳤습니다. 이 컬렉션의 2번(몰드 1894)과 나란히 보면 같은 회사가 만든 다른 시기의 얼굴을 비교할 수 있습니다."
     ],
-    "pending": "이 인형의 정보는 확인 중입니다."
+    "pending": "마크의 전체 표기와 크기 번호는 확인 중입니다."
    },
    "8": {
     "no": 8,
@@ -391,7 +386,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "55 cm"
      ]
     ],
     "about": [
@@ -423,7 +418,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "55 cm"
      ]
     ],
     "about": [
@@ -434,7 +429,7 @@
      "롱페이스 쥐모는 1879년 파리의 인형 회사 쥐모(Jumeau)가 내놓은 모델로, 황제의 조각가로 불린 알베르 에르네스트 카리에 벨뢰즈(1824-1887)에게 의뢰해 만든 것으로 전해집니다. 어린 시절의 앙리 4세 초상을 모델로 삼았다는 이야기가 있으며, 이름난 조각가가 원형을 만든 최초의 인형으로 평가됩니다. 살짝 우수에 젖은 표정 때문에 프랑스어로 '슬픈 아기'라는 뜻의 '베베 트리스트(Bebe Triste)'라고도 불립니다.",
      "귀를 따로 조형해 굽기 전에 헤드에 붙였고, 헤드에는 크기 번호만 새기고 바디에 파란 스탬프를 찍은 것이 특징입니다. 1880년대에 생산된 원본은 매우 귀해서, 오늘날 포슬린 인형 제작자들이 가장 많이 복제하는 앤틱 몰드 가운데 하나입니다."
     ],
-    "pending": "제작 작가와 크기는 확인 중입니다."
+    "pending": "제작 작가는 확인 중입니다."
    },
    "10": {
     "no": 10,
@@ -447,7 +442,7 @@
      ],
      [
       "작가",
-      "확인 중"
+      "Anna Miller"
      ],
      [
       "의상",
@@ -455,18 +450,18 @@
      ],
      [
       "크기",
-      "확인 중"
+      "59 cm"
      ]
     ],
     "about": [
      "파란 레이스 드레스와 보닛, 흰 리본을 갖춘 인형입니다. 이 의상은 전부 손뜨개(크로셰와 니팅)로 만든 것으로, 네덜란드의 테클라 반 아일(Thecla Van Eijl)이 제작했습니다. 자료를 제공한 작가의 이모로, 올해 92세입니다.",
-     "원본은 케머 & 라인하르트의 대표 캐릭터 돌 '마인 리블링(Mein Liebling, 나의 사랑)'입니다."
+     "원본은 케머 & 라인하르트의 대표 캐릭터 돌 '마인 리블링(Mein Liebling, 나의 사랑)'이며, 이 복제품은 안나 밀러(Anna Miller)가 만들었습니다."
     ],
     "bg": [
      "케머 & 라인하르트는 1902년 '마인 리블링' 상표를 등록했는데, 이는 회사가 인형에 이름을 붙인 첫 사례였습니다. 몰드 117은 1911년에 나온 캐릭터 차일드로, 닫힌 입과 유리 눈, 깃털처럼 그린 눈썹, 위아래로 그린 속눈썹, 컴포지션 볼 조인트 바디가 특징이며 목 뒤에 'K (별) R Simon & Halbig 117'과 크기가 새겨져 있습니다. 이후 117A, 열린 입과 좌우로 움직이는 눈을 가진 117N '마인 노이어 리블링'(1916-1930) 등으로 이어졌습니다.",
      "1909년 케머 & 라인하르트가 '캐릭터 돌' 상표를 등록하면서 인형 얼굴은 이상화된 '돌리 페이스'에서 실제 아이를 본뜬 자연스러운 표정으로 넓어졌고, 마인 리블링은 그 흐름을 대표하는 얼굴입니다. 현재 Seeley's, Byron 등 여러 회사가 다양한 크기의 117 복제 몰드를 냈습니다."
     ],
-    "pending": "제작 작가와 크기는 확인 중입니다."
+    "pending": ""
    },
    "11": {
     "no": 11,
@@ -519,7 +514,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "46 cm"
      ]
     ],
     "about": [
@@ -530,7 +525,7 @@
      "1909년 케머 & 라인하르트가 실제 아기를 본뜬 몰드 100 '카이저 베이비'를 내놓은 뒤, 독일의 인형 회사들은 앞다투어 캐릭터 베이비와 토들러 인형을 만들었습니다. 이상화된 소녀 얼굴의 '돌리 페이스' 인형과 달리, 캐릭터 베이비는 통통한 볼과 작은 코, 웃거나 우는 표정 등 아기의 실제 모습을 담았습니다.",
      "토들러 인형은 다리를 굽힌 채 앉는 '벤트림 베이비 바디'가 아니라, 서 있을 수 있는 관절식 바디에 통통한 아기 얼굴을 얹은 형태입니다. 이 인형이 당당히 서서 아기를 안고 있는 모습이 바로 그 특징을 보여 줍니다."
     ],
-    "pending": "원본 제작사와 크기는 확인 중입니다."
+    "pending": "원본 제작사는 확인 중입니다."
    },
    "13": {
     "no": 13,
@@ -551,7 +546,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "46 cm"
      ]
     ],
     "about": [
@@ -562,7 +557,7 @@
      "SFBJ(Societe Francaise de Fabrication de Bebes et Jouets, 프랑스 베베 완구 제조회사)는 1899년 쥐모, 브뤼, 고티에 등 프랑스 인형 회사들과 독일계 플라이슈만 & 블뢰델이 독일 인형의 저가 공세에 맞서 만든 연합체입니다. 창립 1년 만에 2,000명의 직원이 하루 15,000개의 인형을 생산했고, 1958년까지 운영되었습니다.",
      "몰드 60과 301은 SFBJ의 표준 '돌리 페이스' 아동 인형으로, 유명한 소녀 잡지 인형 '블뤼에트(Bleuette)'에도 쓰였습니다. 301의 목 뒤에는 'SFBJ 301 Paris'와 크기 번호가 새겨져 있으며, 프랑스식 컴포지션과 나무로 만든 관절 바디에 얹었습니다. 1916년 이후에는 'UNIS FRANCE' 마크도 함께 쓰였습니다."
     ],
-    "pending": "제작 연도와 크기는 확인 중입니다."
+    "pending": "제작 연도는 확인 중입니다."
    },
    "14": {
     "no": 14,
@@ -575,7 +570,7 @@
      ],
      [
       "작가",
-      "확인 중"
+      "Anna Miller"
      ],
      [
       "제작 시기",
@@ -583,18 +578,18 @@
      ],
      [
       "크기",
-      "확인 중"
+      "50 cm"
      ]
     ],
     "about": [
      "회색 코트 드레스에 붉은 파이핑을 두르고 체크 조끼와 플리츠 스커트를 갖춘, 단정한 외출복 차림의 인형입니다. 와인색 리본 모자와 금발 곱슬머리, 검정 구두가 조화를 이룹니다.",
-     "소장 기록에는 '에밀리 쥐모(Emily Jumeau)'라고 적혀 있습니다. 쥐모의 대표 베베인 'E.J.'(에밀 쥐모의 이니셜) 몰드를 가리키는 것으로 보이며, 정확한 몰드명은 확인 중입니다."
+     "안나 밀러(Anna Miller)의 작품으로, 소장 기록에는 '에밀리 쥐모(Emily Jumeau)'라고 적혀 있습니다. 쥐모의 대표 베베인 'E.J.'(에밀 쥐모의 이니셜) 몰드를 가리키는 것으로 보이며, 정확한 몰드명은 확인 중입니다."
     ],
     "bg": [
      "쥐모(Maison Jumeau)는 1840년대 초 피에르 프랑수아 쥐모가 파리에서 시작한 회사로, 1848년에는 이미 프랑스 최고의 인형 제작사로 꼽혔습니다. 1851년 런던 만국박람회 1등 메달을 비롯해 파리, 빈, 멜버른 등 각지의 박람회에서 수상했고, 1872년 몽트뢰유에 자체 도자기 공장을 세워 직접 비스크 헤드를 굽기 시작했습니다.",
      "아들 에밀 쥐모는 1877년 아이 모습의 '베베'를 선보여 회사의 황금기를 열었습니다. 1881년부터 헤드에 'E.J.'를 새겼고, 1886-87년부터는 붉은 스탬프 'Depose Tete Jumeau'로 바뀌었습니다. E.J. 베베는 압축 비스크 헤드, 페이퍼웨이트 유리 눈, 닫힌 입, 따로 조형해 붙인 귀가 특징입니다. 에밀 쥐모는 1889년 레지옹 도뇌르 훈장을 받았고, 회사는 1899년 SFBJ에 합류했습니다."
     ],
-    "pending": "몰드명, 제작 작가, 크기는 확인 중입니다."
+    "pending": "몰드명(E.J. 여부)은 확인 중입니다."
    },
    "15": {
     "no": 15,
@@ -615,7 +610,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "49 cm"
      ]
     ],
     "about": [
@@ -626,7 +621,7 @@
      "아이 모습의 '베베'가 나오기 전, 프랑스 인형의 주류는 성인 여성 모습의 '푸페(poupee)', 이른바 패션 돌이었습니다. 쥐모는 1855년 도자기 헤드의 패션 돌을 선보였고, 가죽 바디에 당시 파리 유행을 그대로 옮긴 옷을 입혀 판매했습니다. 재봉사, 재단사, 가죽 장인, 모자 장식 담당까지 65명이 의상 제작에 매달렸다는 기록이 남아 있을 만큼 의상이 곧 상품의 핵심이었습니다.",
      "패션 돌은 1880년대 초 베베에 자리를 내주며 생산이 줄었지만, 오늘날 포슬린 작가들 사이에서는 시대 의상을 마음껏 재현할 수 있는 대상으로 다시 사랑받고 있습니다. 이 인형의 정성스러운 의상이 그 전통을 잘 보여 줍니다."
     ],
-    "pending": "'Stobe'라는 이름의 유래와 정확한 몰드명, 크기는 확인 중입니다."
+    "pending": "'Stobe'라는 이름의 유래와 정확한 몰드명은 확인 중입니다."
    },
    "16": {
     "no": 16,
@@ -647,18 +642,22 @@
      ],
      [
       "작가",
-      "확인 중"
+      "Anna Miller"
+     ],
+     [
+      "크기",
+      "65 cm"
      ]
     ],
     "about": [
      "붉은 머리에 16세기 영국 엘리자베스 1세 시대풍의 드레스를 입은 인형입니다. 핑크 새틴 가운 위에 브로케이드 앞판을 대고 진주 체인과 장식을 늘어뜨렸으며, 머리에는 당시 유행하던 후드형 머리장식을 얹었습니다.",
-     "헤드는 프랑스 쥐모 인형을 복제한 것으로, 버지니아 라보르냐(Virginia LaVorgna)의 몰드를 사용했습니다. 의상은 밥 세번스(Bob Severns)와 함께 만들었습니다."
+     "헤드는 프랑스 쥐모 인형을 복제한 것으로, 버지니아 라보르냐(Virginia LaVorgna)의 몰드를 사용해 안나 밀러(Anna Miller)가 만들었습니다. 의상은 밥 세번스(Bob Severns)와 함께 만들었습니다."
     ],
     "bg": [
      "버지니아 라보르냐는 미국 텍사스 시더힐(Cedar Hill)에서 활동한 인형 제작자이자 사업가로, 인기 있는 차이나 페인트 라인과 앤틱 인형 복제 몰드를 만들었습니다. 몰드 제작자 스탠 셸스키와 협업했고, 몰드 이름을 여섯 손녀의 이름에서 따온 것으로도 유명합니다. 사진으로 된 채색 안내서를 함께 제공해 초보 제작자들에게 큰 도움이 되었으며, 이 제품 라인은 2024년 1월 The Bell Collection에 인수되었습니다.",
      "밥 세번스는 D.A.G Millie상 수상 작가로 프랑스 패션 돌과 시대 의상을 30년 이상 가르쳐 왔습니다. 세미나에서는 헤드 제작뿐 아니라 이처럼 특정 시대의 복식을 고증해 재현하는 과정을 함께 배웁니다."
     ],
-    "pending": "제작 작가와 크기는 확인 중입니다."
+    "pending": ""
    },
    "17": {
     "no": 17,
@@ -675,7 +674,7 @@
      ],
      [
       "작가",
-      "확인 중"
+      "Anna Miller"
      ],
      [
       "원형",
@@ -683,23 +682,23 @@
      ],
      [
       "크기",
-      "확인 중"
+      "60 cm"
      ]
     ],
     "about": [
      "갈색 단발머리에 빨간 리본을 꽂고, 빨간 물방울 무늬의 3단 프릴 드레스를 입은 인형 '아니카(Annika)'입니다. 앤틱 인형의 크고 동그란 눈과 달리 살짝 내리깐 눈매와 차분한 표정이 현대 아티스트 돌의 특징을 잘 보여 줍니다.",
-     "현대 작가의 원형에서 뜬 몰드로 만든 모던 복제 인형이며, 원형 작가와 제작자는 확인 중입니다."
+     "현대 작가의 원형에서 뜬 몰드로 안나 밀러(Anna Miller)가 만든 모던 복제 인형이며, 원형 작가는 확인 중입니다."
     ],
     "bg": [
      "포슬린 인형 제작은 1970년대 미국에서 취미로 크게 확산되었습니다. 초기에는 앤틱 인형에서 몰드를 떠 복제하는 것이 중심이었지만, 이후 현대 작가들이 직접 조각한 원형으로 몰드를 만들어 판매하는 '모던 돌' 분야가 자리 잡았습니다. 미주리의 다이애나 에프너가 세운 Expressions사처럼 작가 디자인 몰드만 전문으로 하는 회사도 생겼습니다.",
      "모던 돌은 실제 아이의 자연스러운 표정과 체형, 현대적인 의상을 담는 것이 특징이며, D.A.G 교육 과정에도 앤틱 복제 과정과 별도로 'Beautiful Doll(모던)' 과정이 있습니다. 채색 역시 앤틱 복제와 달리 사실적인 눈 표현과 피부 톤을 중시합니다."
     ],
-    "pending": "원형 작가, 제작자, 크기는 확인 중입니다."
+    "pending": "원형(원본 조각) 작가는 확인 중입니다."
    },
    "18": {
     "no": 18,
-    "title": "(이름 확인 중) - Shirley Lloyd",
-    "subtitle": "앤틱 복제 (Antique Reproduction)",
+    "title": "April the Flirt",
+    "subtitle": "독일 앤틱 복제 (Antique Reproduction)",
     "info": [
      [
       "작가",
@@ -707,26 +706,31 @@
      ],
      [
       "원본",
-      "확인 중"
+      "Kammer & Reinhardt (독일) 플러티 아이 모델"
+     ],
+     [
+      "몰드",
+      "Seeley's"
+     ],
+     [
+      "크기",
+      "60 cm"
      ],
      [
       "제작 시기",
       "확인 중"
-     ],
-     [
-      "크기",
-      "확인 중"
      ]
     ],
     "about": [
-     "주름 잡힌 흰 레이스 보닛과 연핑크 드레스를 입고 갈색 머리에 짙은 눈을 가진 인형입니다. 머리 뒤에 'SEL' 이니셜이 새겨져 있는데, 이 컬렉션에서 SEL 이니셜이 있는 복제 인형은 모두 셜리 로이드(Shirley Lloyd)의 작품입니다.",
-     "셜리 로이드는 캐나다의 포슬린 인형 작가 린 해리슨(Lynn Harrison)의 어머니입니다. 100세까지 인형과 함께한 뒤 몇 해 전 12월에 세상을 떠났으며, 이 컬렉션에는 그녀의 작품(24, 25, 26, 32번)과 딸과 함께 만든 작품(21, 22번)이 여러 점 있습니다."
+     "주름 잡힌 흰 레이스 보닛과 연핑크 드레스를 입고 갈색 머리에 짙은 눈을 가진 인형 '에이프릴 더 플러트(April the Flirt)'입니다. 셜리 로이드(Shirley Lloyd)가 케머 & 라인하르트의 앤틱 인형을 Seeley's 몰드로 복제한 작품으로, 머리 뒤에 'SEL' 이니셜이 새겨져 있습니다.",
+     "'플러트(Flirt)'라는 이름은 원본 인형의 '플러티 아이', 즉 좌우로 움직이며 곁눈질하는 눈에서 왔습니다. 이 복제품의 눈이 실제로 움직이는지는 확인 중이며, 움직이지 않는 경우에도 원본의 느낌을 살려 눈을 옆을 보도록 넣었습니다.",
+     "셜리 로이드는 캐나다의 포슬린 인형 작가 린 해리슨(Lynn Harrison)의 어머니로, 100세까지 인형과 함께한 뒤 몇 해 전 12월에 세상을 떠났습니다. 이 컬렉션에는 그녀의 작품이 여러 점 있습니다(21, 22, 24, 25, 26, 32번)."
     ],
     "bg": [
-     "복제 인형에서 작가의 이니셜은 서명이자 정직함의 표시입니다. 제작자는 굽기 전 그린웨어 상태에서 머리 뒤나 숄더 플레이트에 이니셜과 연도를 새기는데, 앤틱 인형에는 이런 개인 서명이 없기 때문에 이 표시만으로도 복제품임을 구분할 수 있습니다.",
-     "포슬린 인형 제작 과정은 다음과 같습니다. 석고 몰드에 액상 도토(슬립)를 부어 굳힌 뒤 꺼내고, 이음선을 다듬어 1,200도가 넘는 가마에서 굽습니다. 이후 눈썹, 속눈썹, 입술, 볼 색을 차이나 페인트로 칠하고 다시 굽는 과정을 여러 번 반복해 피부 톤과 표정을 완성합니다. 마지막으로 유리 눈을 넣고 가발을 붙이고 고무줄로 관절을 연결하면 인형이 완성됩니다."
+     "플러티 아이는 눕히면 감기는 슬립 아이에 더해, 머리를 기울이면 눈동자가 좌우로 움직여 곁눈질하는 듯한 표정을 만드는 장치입니다. 케머 & 라인하르트는 1916년경부터 열린 입과 플러티 아이를 갖춘 117N '마인 노이어 리블링(나의 새로운 사랑)'을 내놓았고, 이런 눈은 1910-20년대 독일 인형에서 큰 인기를 끌었습니다.",
+     "복제 인형에서 작가의 이니셜은 서명이자 정직함의 표시입니다. 제작자는 굽기 전 그린웨어 상태에서 머리 뒤에 이니셜과 연도를 새기는데, 앤틱 인형에는 이런 개인 서명이 없기 때문에 이 표시만으로도 복제품임을 구분할 수 있습니다."
     ],
-    "pending": "원본 인형과 제작 연도, 크기는 확인 중입니다."
+    "pending": ""
    },
    "19": {
     "no": 19,
@@ -739,11 +743,11 @@
      ],
      [
       "작가",
-      "확인 중 (머리 뒤 이니셜)"
+      "Dianna Effner가 눈을 직접 채색 (모던 돌 복제)"
      ],
      [
       "크기",
-      "확인 중 (몰드는 14인치, 18인치 두 종류)"
+      "48 cm"
      ],
      [
       "제작 시기",
@@ -751,14 +755,14 @@
      ]
     ],
     "about": [
-     "금발 곱슬머리에 흰 머리 리본을 달고, 줄무늬 드레스 위에 흰 아일릿 레이스 칼라와 카메오 목걸이를 갖춘 인형 '에밀리(Emily)'입니다. 미국의 대표적인 인형 조각가 다이애나 에프너(Dianna Effner)의 원형을 복제한 작품으로, 제작자는 머리 뒤 이니셜로 확인 중입니다.",
+     "금발 곱슬머리에 흰 머리 리본을 달고, 줄무늬 드레스 위에 흰 아일릿 레이스 칼라와 카메오 목걸이를 갖춘 인형 '에밀리(Emily)'입니다. 미국의 대표적인 인형 조각가 다이애나 에프너(Dianna Effner)의 원형을 복제한 작품으로, 소장 기록에 따르면 이 인형의 눈은 에프너 본인이 직접 채색했습니다.",
      "에밀리는 에프너의 Expressions사 '차일드 시리즈' 몰드로 14인치와 18인치 두 크기로 나왔으며, 1991년경 완성된 작품들이 남아 있습니다."
     ],
     "bg": [
      "다이애나 에프너(1945-2020)는 유타주에서 태어나 브래들리 대학교에서 미술을 공부했고, 1976년부터 인형을 조각했습니다. 1990년 미국 인형 작가 협회 NIADA 회원으로 선출되었고, 남편 랜들과 함께 미주리주 제임스타운에 Expressions사를 세워 작가 디자인 몰드를 취미 제작자들에게 공급한 선구자가 되었습니다. 남북전쟁 이전에 지어진 옛 상점 건물을 스튜디오로 꾸며 세미나를 열었습니다.",
      "그녀는 사실적인 눈 채색 기법 'DEEP(Dianna Effner Eye Painting)'을 가르치는 '돌 드리머스 길드'를 만들었고, 13인치 비닐 인형 '리틀 달링스'로도 널리 사랑받았습니다. 애슈턴 드레이크, 독일 보네카 등 여러 회사의 인형도 디자인했습니다."
     ],
-    "pending": "제작 작가와 크기는 확인 중입니다."
+    "pending": "포슬린 제작(캐스팅과 조립)도 Effner 본인인지는 확인 중입니다."
    },
    "20": {
     "no": 20,
@@ -779,7 +783,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "75 cm"
      ]
     ],
     "about": [
@@ -790,7 +794,7 @@
      "브와지우 발렌티노 리버라치(1919-1987)는 위스콘신주에서 태어난 피아니스트이자 쇼맨입니다. 1953년부터 방영된 TV 쇼로 전국적인 인기를 얻었고, 라스베이거스 무대에서는 1970-80년대에 주급 30만 달러를 받는 최고의 스타였습니다. 촛대를 얹은 피아노, 라인스톤과 거울로 뒤덮인 피아노, 타조 깃털과 밍크 망토, 거대한 보석 반지가 그의 상징이었고 스스로를 '1인 디즈니랜드'라고 불렀습니다. 1986년 11월 뉴욕 라디오시티 뮤직홀 공연이 마지막 무대였습니다.",
      "로즈 핀컬은 미국의 인형 조각가로, 1990년대 'Rose Pinkul Originals'라는 이름으로 번호가 매겨진 석고 몰드를 발표했습니다. 27인치 레이디 돌(Jasmine, Bess, Lynette, Amanda)과 28인치 남성 돌(Ivan, Shaun), 아동 인형(Poppy, Charlotte) 등이 있으며, 성인 남녀 인형을 세트로 구성할 수 있게 크기를 맞춘 것이 특징입니다."
     ],
-    "pending": "크기는 확인 중입니다. 제작 과정 사진 자료는 별도로 보관되어 있습니다."
+    "pending": "제작 과정 사진 자료는 별도로 보관되어 있습니다."
    },
    "21": {
     "no": 21,
@@ -811,7 +815,7 @@
      ],
      [
       "크기",
-      "몰드 기준 약 23인치 (58cm), 실측 확인 중"
+      "Estelle(여) 65 cm, Harte(남) 68 cm"
      ]
     ],
     "about": [
@@ -822,7 +826,7 @@
      "론 부커는 1990년대 후반 Seeley's의 '레이디 시리즈'로 23인치 여성 인형 '에스텔라(Estella)'를 발표했습니다. 살짝 돌린 얼굴과 가는 목, 팔꿈치와 손목을 굽힌 팔, 발끝을 세운 다리 등 여성적인 우아함이 강조된 원형으로 1997년 Doll Artisan지에 소개되었습니다. 이어 그녀의 파트너로 신사 인형 '하트'를 만들었는데, 1999-2001년 인형 잡지에서는 이 남성 인형이 레오나르도 다빈치부터 오페라의 유령까지 다양한 인물로 변신한 모습이 소개되었습니다.",
      "Seeley's는 1946년 밀드레드 실리가 뉴욕주 오네온타에서 시작한 회사로, 앤틱 인형에서 뜬 복제 몰드와 포슬린 슬립, 차이나 페인트, 바디, 의상 패턴까지 인형 제작에 필요한 모든 것을 공급하며 세계 포슬린 인형 취미의 중심이 되었습니다. 1977년 롤프 에릭손이 인수한 뒤 D.A.G가 창립되었고, 1990년대 전성기에는 30여 개국에 제품을 수출했습니다."
     ],
-    "pending": "실측 크기는 확인 중입니다."
+    "pending": ""
    },
    "22": {
     "no": 22,
@@ -843,7 +847,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "신부(여) 65 cm, Sean(남) 70 cm"
      ]
     ],
     "about": [
@@ -854,7 +858,7 @@
      "로즈 핀컬(Rose Pinkul)은 미국의 인형 조각가이자 포슬린 인형 의상 디자이너로, 1990년대에 'Rose Pinkul Originals'라는 이름으로 원형과 몰드를 발표했습니다. 몰드에는 번호와 함께 HE(헤드), A(팔), L(다리) 같은 부위 기호가 붙어 있으며, 27인치 레이디 돌과 28인치 남성 돌, 그리고 이들과 어울리도록 크기를 맞춘 18인치 아동 인형 'Charlotte' 등 가족 구성이 가능한 라인업이 특징입니다.",
      "성인 남성 인형은 포슬린 인형 세계에서 비교적 드문 분야입니다. 남성 원형은 넓은 가슴과 남성적인 손 조형이 필요하고 의상도 정장이나 무대 의상을 축소 재단해야 해서, 커플이나 웨딩 세트로 완성하려면 두 배의 정성이 듭니다."
     ],
-    "pending": "여성 인형의 이름과 크기는 확인 중입니다."
+    "pending": "여성 인형의 이름은 확인 중입니다."
    },
    "23": {
     "no": 23,
@@ -875,7 +879,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "70 cm"
      ]
     ],
     "about": [
@@ -886,7 +890,7 @@
      "버니 모리스와 폴 잭슨은 함께 인형 원형을 조각하는 작가 팀으로, Seeley's를 통해 18인치 전신 포슬린 아동 인형 'Angel', 흉상 'Claire', 30인치 틴 시리즈 'Daisy Garland', 요정 시리즈 등을 발표했습니다. 버니 모리스는 팔다리를 끼워 바꿀 수 있는 5인치 미니 인형 'Popit'의 'Dollies Galore' 컬렉션으로도 알려져 있습니다.",
      "세미나 전용 몰드는 포슬린 인형 세계의 독특한 전통입니다. 작가가 자신의 원형을 일반 판매하지 않고 직접 가르치는 세미나에서만 사용하도록 제한하면, 참가자들은 작가의 채색법과 의상 제작 방식을 그대로 배우면서 한정된 수량의 인형을 완성하게 됩니다. 그런 인형에는 작가의 손길과 함께 세미나의 기록이 담깁니다."
     ],
-    "pending": "크기는 확인 중입니다."
+    "pending": ""
    },
    "24": {
     "no": 24,
@@ -907,7 +911,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "65 cm"
      ]
     ],
     "about": [
@@ -918,7 +922,7 @@
      "성인 여성 모습의 '레이디 돌'은 19세기 파리의 패션 돌(푸페)에서 시작된 오랜 전통입니다. 당시 인형은 파리의 최신 유행을 지방과 외국에 알리는 역할도 했고, 옷과 모자, 장갑, 부채 같은 소품이 인형과 함께 팔렸습니다.",
      "현대의 포슬린 레이디 돌은 로즈 핀컬, 비키 해밀턴 같은 작가들의 원형 몰드를 사용해 만들며, 제작자는 시대 의상을 고증해 축소 재단하고 모자와 장신구까지 직접 만듭니다. 셜리 로이드는 이 컬렉션에서 레이디 돌 여러 점(24, 25, 26, 32번)을 남겼는데, 각 인형의 의상과 소품이 서로 다른 시대와 분위기를 보여 줍니다."
     ],
-    "pending": "원형, 제작 연도, 크기는 확인 중입니다."
+    "pending": "원형과 제작 연도는 확인 중입니다."
    },
    "25": {
     "no": 25,
@@ -939,7 +943,7 @@
      ],
      [
       "크기",
-      "확인 중 (몰드 기준 24인치, 약 61cm)"
+      "56 cm"
      ]
     ],
     "about": [
@@ -950,7 +954,7 @@
      "비키 해밀턴은 미국의 인형 조각가로, 1990년대에 'Vicki's Original Designs'라는 이름으로 V 번호가 붙은 몰드를 발표했습니다. 성인 여성 체형의 패션 돌 원형을 여러 크기로 만든 것이 특징으로, 'Elizabeth'는 11.5인치, 18인치, 36인치 세 가지 크기로, 'Rebecca'는 24인치 패션 레이디로 나왔습니다. 24인치 'Vicki Lynn' 몰드는 지금도 남부 벨, 빅토리안, 엘리자베스 1세 여왕 의상 패턴과 함께 판매되고 있습니다.",
      "패션 레이디 원형은 어깨와 허리, 팔의 각도가 의상을 돋보이게 설계되어 있어 제작자가 의상과 장신구로 개성을 표현하기에 좋습니다. 같은 원형이라도 어떤 시대의 옷을 입히느냐에 따라 전혀 다른 인물이 됩니다."
     ],
-    "pending": "제작 연도와 실측 크기는 확인 중입니다."
+    "pending": "제작 연도는 확인 중입니다."
    },
    "26": {
     "no": 26,
@@ -972,6 +976,10 @@
      [
       "파트너",
       "King (Harte 원형, 녹슨빛 의상)"
+     ],
+     [
+      "크기",
+      "60 cm"
      ]
     ],
     "about": [
@@ -982,7 +990,7 @@
      "영화 '왕과 나(The King and I)'는 1956년 20세기 폭스가 제작하고 월터 랭이 감독한 뮤지컬 영화로, 로저스와 해머스타인의 1951년 브로드웨이 뮤지컬을 원작으로 합니다. 데보라 커가 시암 왕실의 가정교사 애나 레오노웬스를, 율 브리너가 몽꿋 왕을 연기했으며, 브리너는 이 영화로 아카데미 남우주연상을 받았습니다. 영화는 아이린 샤라프의 의상상을 포함해 아카데미 5개 부문을 수상했습니다.",
      "이 인형의 넓게 퍼진 태피터 스커트와 화려한 색감은 영화 속 애나의 풍성한 무도회 드레스를 떠올리게 합니다."
     ],
-    "pending": "제작 연도와 크기는 확인 중입니다. 파트너 인형(King)은 다리 수리 예정입니다."
+    "pending": "제작 연도는 확인 중입니다. 파트너 인형(King)은 다리 수리 예정입니다."
    },
    "27": {
     "no": 27,
@@ -1003,7 +1011,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "47 cm"
      ]
     ],
     "about": [
@@ -1014,7 +1022,7 @@
      "'파리안'은 1860년부터 1880년경 주로 독일에서 만들어진, 피부색을 입히지 않은 흰 비스크 숄더 헤드 인형을 가리키는 컬렉터 용어입니다. 그리스 파로스 섬의 흰 대리석에서 이름을 따왔고, 헤드를 천 바디에 얹어 완성했습니다. 정교하게 조형한 머리 모양에 깃털, 꽃, 리본, 금색 광택의 빗과 귀걸이 같은 장식을 함께 조형한 것이 특징이며, 눈은 그려 넣거나 유리 눈을 넣었습니다.",
      "머리 모양으로 시대를 짐작할 수 있는데, 1860년대 초에는 가운데 가르마에 머리망, 1860년대 후반부터 1870년대 중반에는 정수리 위로 높이 올려 땋고 말아 올린 화려한 스타일이 유행했습니다. 대표 제작사로는 알트 벡 & 고트샬크, 클링, 도른하임 코흐 & 피셔가 있습니다."
     ],
-    "pending": "'Elisa' 몰드의 정확한 명칭과 번호, 크기는 확인 중입니다."
+    "pending": "'Elisa' 몰드의 정확한 명칭과 번호는 확인 중입니다."
    },
    "28": {
     "no": 28,
@@ -1035,7 +1043,7 @@
      ],
      [
       "크기",
-      "확인 중"
+      "47 cm"
      ]
     ],
     "about": [
@@ -1046,7 +1054,7 @@
      "Seeley's의 '돌메이커 작업지'는 몰드 하나하나에 대해 원본 인형의 역사와 특징, 사용할 바디와 의상 패턴 번호, 채색 시 유의점을 정리한 안내서로, 제작자가 원본에 충실한 복제품을 만들도록 돕는 자료입니다. Seeley's의 파리안 몰드 목록에는 Marie Louise(S628) 외에도 Sisi, Lady Stanhope, Queen Louise of Prussia 등 19세기 유럽 여성들의 이름을 딴 몰드가 여럿 있습니다.",
      "알트 벡 & 고트샬크(Alt, Beck & Gottschalck)는 1854년 튀링겐 나우엔도르프에서 창립된 도자기 회사로, 1860년대 레이디 숄더 헤드로 시작해 1870년대에는 더 화려한 컬과 장식을 갖춘 파리안과 차이나 헤드를 만든 대표적인 제작사입니다."
     ],
-    "pending": "소장 기록에는 27번과 같은 'Elisa'로 적혀 있으나 첨부 작업지는 'Marie Louise'입니다. 정확한 몰드명과 크기는 확인 중입니다."
+    "pending": "소장 기록에는 27번과 같은 'Elisa'로 적혀 있으나 첨부 작업지는 'Marie Louise'입니다. 정확한 몰드명은 확인 중입니다."
    },
    "29": {
     "no": 29,
@@ -1067,18 +1075,18 @@
      ],
      [
       "크기",
-      "확인 중"
+      "62 cm"
      ]
     ],
     "about": [
      "금발을 길게 땋아 내리고 흰 레이스 드레스에 핑크 장미와 리본을 단 인형입니다. 앤틱 복제와 달리 현대적인 원형으로 만든 모던 돌로, 안나 밀러(Anna Miller)의 작품입니다.",
-     "이 컬렉션에는 안나 밀러의 작품이 여러 점 있습니다. 프랑스 SFBJ 301 복제 '조이'(13번), 쥐모 레이디 복제(15번), 독일 토들러 복제 '루스'(12번), 프랑스 베베 복제(11번)처럼 앤틱을 충실히 재현한 작품들과, 이 인형처럼 현대적 감각의 모던 돌이 나란히 있어 한 작가의 폭넓은 작업을 비교해 볼 수 있습니다."
+     "이 컬렉션에는 안나 밀러의 작품이 여러 점 있습니다. 프랑스 SFBJ 301 복제 '조이'(13번), 쥐모 복제(14, 16번), 쥐모 레이디(15번), 독일 마인 리블링(10번)과 토들러 '루스'(12번), 프랑스 베베(11번)처럼 앤틱을 충실히 재현한 작품들과, '아니카'(17번)와 이 인형처럼 현대적 감각의 모던 돌이 나란히 있어 한 작가의 폭넓은 작업을 비교해 볼 수 있습니다."
     ],
     "bg": [
      "앤틱 복제와 모던 돌은 같은 포슬린 기법을 쓰지만 지향점이 다릅니다. 앤틱 복제는 100여 년 전 원본의 얼굴과 채색, 의상을 최대한 그대로 되살리는 것이 목표라서, 눈썹의 붓질 하나, 볼 색의 농도까지 원본을 따릅니다. 반면 모던 돌은 현대 작가가 조각한 원형에 제작자의 해석을 더하는 작업으로, 사실적인 눈 표현과 자연스러운 피부 톤, 오늘날의 의상이 특징입니다.",
      "D.A.G의 교육 과정도 앤틱 복제(Apprentice)와 모던(Beautiful Doll) 두 갈래로 나뉘어 있으며, 두 과정을 모두 거친 제작자는 이 두 세계를 자유롭게 오가며 작업합니다."
     ],
-    "pending": "인형 이름, 원형, 크기는 확인 중입니다."
+    "pending": "인형 이름과 원형은 확인 중입니다."
    },
    "30": {
     "no": 30,
@@ -1327,6 +1335,7 @@
     "name": "German Antique Originals",
     "ids": [
      2,
+     7,
      30,
      33,
      35
@@ -1385,12 +1394,6 @@
      29,
      31,
      32
-    ]
-   },
-   {
-    "name": "To Be Confirmed",
-    "ids": [
-     7
     ]
    }
   ],
@@ -1457,11 +1460,11 @@
      ],
      [
       "Made",
-      "To be confirmed"
+      "Early 1990s"
      ],
      [
       "Height",
-      "To be confirmed"
+      "52 cm"
      ],
      [
       "Shown at",
@@ -1476,7 +1479,7 @@
      "The Doll Artisan Guild (D.A.G) is an international organization of porcelain dollmakers founded in 1977 by Mildred Seeley in Oneonta, New York. Devoted to the accurate reproduction of antique dolls and to dollmaking education, it runs seminars taught by certified instructors around the world and a ladder of qualifications such as Certified Doll Artisan and Master of Dollmaking.",
      "In the D.A.G international competition, entries are not simply compared with the doll beside them: qualified judges score each doll against established standards, in categories that cover antique reproduction, modern dolls, original sculpting and costuming. The top award, the 'Millie', is named after the founder. In the 1990s the guild had some 12,500 members, and its conventions in Oneonta drew up to 1,000 dollmakers from all over the globe."
     ],
-    "pending": "Year of making and height are to be confirmed."
+    "pending": ""
    },
    "2": {
     "no": 2,
@@ -1529,15 +1532,15 @@
      ],
      [
       "Mold",
-      "To be confirmed"
+      "Mold design (original sculpt) by Kammer & Reinhardt"
      ],
      [
       "Period",
-      "To be confirmed"
+      "1900-1920"
      ],
      [
       "Height",
-      "To be confirmed"
+      "48 cm"
      ]
     ],
     "about": [
@@ -1548,7 +1551,7 @@
      "Kammer & Reinhardt was founded in 1886 in Waltershausen, Thuringia, by the sculptor Ernst Kammer and the businessman Franz Reinhardt. The firm won prizes at the Chicago World's Fair of 1893 and the St. Louis World's Fair of 1904. In 1902 it acquired the Heinrich Handwerck factory, which brought it together with Simon & Halbig as its head supplier; dolls of this period are marked with both 'K (star) R' and 'Simon & Halbig'. In 1909 the firm registered the trademark 'Charakterpuppe' (character doll) and launched mold 100, the 'Kaiser Baby', modeled on a real child, a turning point in doll history.",
      "Simon & Halbig was founded in 1869 in Grafenhain by Wilhelm Simon and Carl Halbig and began making doll heads in 1875. Renowned for fine sculpting, subtle coloring and high-quality bisque, it supplied heads not only to Kammer & Reinhardt, Handwerck, Bergmann and Dressel in Germany but also to Jumeau and SFBJ in France. It was bought by Kammer & Reinhardt in 1920."
     ],
-    "pending": "Whether the doll is an antique original or a reproduction, together with the mold number and period, is to be confirmed."
+    "pending": "Whether the doll is an antique original or a reproduction, and the mold number, are to be confirmed."
    },
    "4": {
     "no": 4,
@@ -1573,7 +1576,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "50 cm"
      ]
     ],
     "about": [
@@ -1605,11 +1608,11 @@
      ],
      [
       "Period",
-      "To be confirmed"
+      "1900-1930"
      ],
      [
       "Height",
-      "To be confirmed"
+      "47 cm"
      ]
     ],
     "about": [
@@ -1620,7 +1623,7 @@
      "The Dressel family's toy business goes back to the eighteenth century. In 1757 the family acquired the 'Dressel-Hof' in Sonneberg, where a toy business was already in operation, and the firm is counted among the earliest representatives of the Thuringian toy industry. In 1873 the brothers Cuno (1829-1893) and Otto (1831-1907) took over and gave the company its present name; in 1875 it registered the 'Holz-Masse' trademark with its winged helmet.",
      "Besides bisque, the firm made dolls in celluloid, composition, wax and wood, and used trade names such as 'Jutta' (1907) and 'Fifth Ave Dolls' (1903). It rebuilt after a major fire in 1914 and remained in business until around the Second World War."
     ],
-    "pending": "Whether the doll is an antique original or a reproduction, together with the mold number and period, is to be confirmed."
+    "pending": "Whether the doll is an antique original or a reproduction, and the mold number, are to be confirmed."
    },
    "6": {
     "no": 6,
@@ -1645,7 +1648,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "49 cm"
      ]
     ],
     "about": [
@@ -1660,39 +1663,39 @@
    },
    "7": {
     "no": 7,
-    "title": "(Name to be confirmed)",
-    "subtitle": "Bisque Doll",
+    "title": "Armand Marseille 390",
+    "subtitle": "German Antique Bisque Doll (original)",
     "info": [
      [
-      "Name",
-      "To be confirmed"
+      "Maker",
+      "Armand Marseille (Koppelsdorf, Thuringia, Germany)"
      ],
      [
-      "Type",
-      "To be confirmed"
-     ],
-     [
-      "Maker / artist",
-      "To be confirmed"
+      "Mold",
+      "No. 390"
      ],
      [
       "Period",
-      "To be confirmed"
+      "c. 1905-1920"
      ],
      [
       "Height",
-      "To be confirmed"
+      "about 48 cm"
+     ],
+     [
+      "Type",
+      "Bisque head doll, original antique"
      ]
     ],
     "about": [
      "A doll with blonde curls in a pale blue net dress. The sleeves and front panel are finished in white lace with embroidery, and her blue eyes and rosy cheeks give her a childlike charm.",
-     "Details of this doll's maker and period are being checked against the collection records."
+     "She is an original antique made from mold 390 by Armand Marseille of Germany, dating from about 1905-1920. Mold 390 was the company's most-produced mold: a classic 'dolly face' girl with a socket head on a jointed composition body."
     ],
     "bg": [
-     "A bisque doll is made of bisque, porcelain that is fired without a glaze. Instead of a glossy surface it has a matte, skin-like texture, and such dolls enjoyed their golden age in France and Germany from the 1860s to the early 1900s. Usually only the head is bisque; the body is cloth, kid leather or composition (a material made from sawdust and glue).",
-     "A doll's identity is usually read from the marks on the back of the neck or head. Antique dolls carry the maker's mark, the mold number and the size number; modern reproductions carry the incised marks of the antique mold together with the initials of the artist and the year. Checking the marks on this doll should establish its origin."
+     "Mold 390 was mass-produced for decades, from about 1900 into the 1930s, and is today the German antique doll a collector is most likely to meet. The back of the neck reads 'Armand Marseille / Germany / 390 / A (size) M', and glass sleep eyes, an open mouth showing teeth and a mohair wig are the standard features. Unlike the company's 370, a shoulder head for kid bodies, the 390 is a socket head that fits into a composition body.",
+     "Armand Marseille was born in St. Petersburg, Russia, in 1856, moved to Germany in the 1860s and in 1885 bought a porcelain factory in Koppelsdorf, Thuringia, where he began making doll heads. At its peak the factory produced about 1,000 heads a day, one of the largest in the world; it merged with Ernst Heubach in 1919, separated in 1932 and soon closed. Seen beside No. 2 (mold 1894), this doll shows two faces from the same company in different periods."
     ],
-    "pending": "Information on this doll is being confirmed."
+    "pending": "The full mark and size number are to be confirmed."
    },
    "8": {
     "no": 8,
@@ -1713,7 +1716,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "55 cm"
      ]
     ],
     "about": [
@@ -1745,7 +1748,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "55 cm"
      ]
     ],
     "about": [
@@ -1756,7 +1759,7 @@
      "The Long Face Jumeau was introduced in 1879 by the Paris firm Jumeau and is traditionally said to have been commissioned from Albert-Ernest Carrier-Belleuse (1824-1887), the sculptor to the Emperor, reputedly using a portrait of Henri IV as a child of four as his model. It is regarded as the first doll whose head was modeled by a celebrated sculptor. Because of its wistful expression it is also called the 'Bebe Triste', the sad baby.",
      "The ears were modeled separately and applied to the head before firing; the head bears only a size number, with a blue stamp on the body. Originals made in the 1880s are extremely rare, and today the Long Face is among the antique molds most often reproduced by porcelain dollmakers."
     ],
-    "pending": "The artist and height are to be confirmed."
+    "pending": "The artist is to be confirmed."
    },
    "10": {
     "no": 10,
@@ -1769,7 +1772,7 @@
      ],
      [
       "Artist",
-      "To be confirmed"
+      "Anna Miller"
      ],
      [
       "Costume",
@@ -1777,18 +1780,18 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "59 cm"
      ]
     ],
     "about": [
      "A doll in a blue lace dress and bonnet with white ribbons. The entire outfit was made by hand, crocheted and knitted, by Thecla Van Eijl of the Netherlands, the aunt of the artist who supplied the records, who is now 92.",
-     "The original is Kammer & Reinhardt's most celebrated character doll, 'Mein Liebling', which means 'my darling'."
+     "The original is Kammer & Reinhardt's most celebrated character doll, 'Mein Liebling', which means 'my darling'; this reproduction was made by Anna Miller."
     ],
     "bg": [
      "Kammer & Reinhardt registered the trademark 'Mein Liebling' in 1902, the first time the company had given a doll a name. Mold 117, introduced in 1911, is a character child with a closed mouth, glass eyes, feathered brows, painted upper and lower lashes and a composition ball-jointed body, incised 'K (star) R Simon & Halbig 117' with the size. It was followed by 117A and by 117N 'Mein Neuer Liebling' (1916-1930) with an open mouth and flirty eyes.",
      "When Kammer & Reinhardt registered the 'character doll' trademark in 1909, doll faces moved beyond the idealized 'dolly face' to natural expressions modeled on real children, and Mein Liebling is the face that best represents that change. Reproduction molds of the 117 in many sizes are offered today by Seeley's, Byron and others."
     ],
-    "pending": "The artist and height are to be confirmed."
+    "pending": ""
    },
    "11": {
     "no": 11,
@@ -1841,7 +1844,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "46 cm"
      ]
     ],
     "about": [
@@ -1852,7 +1855,7 @@
      "After Kammer & Reinhardt brought out mold 100, the 'Kaiser Baby' modeled on a real infant, in 1909, German doll companies rushed to make character babies and toddlers. Unlike the idealized girl's face of the 'dolly face' doll, the character baby captured how babies really look: chubby cheeks, a small nose, a laughing or crying expression.",
      "A toddler doll differs from a baby doll in its body. Instead of the 'bent-limb' baby body that sits with its legs curled, a toddler has a jointed body that can stand, topped with a chubby baby face. This doll, standing proudly with her baby in her arms, shows exactly that."
     ],
-    "pending": "The maker of the original and the height are to be confirmed."
+    "pending": "The maker of the original is to be confirmed."
    },
    "13": {
     "no": 13,
@@ -1873,7 +1876,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "46 cm"
      ]
     ],
     "about": [
@@ -1884,7 +1887,7 @@
      "The SFBJ (Societe Francaise de Fabrication de Bebes et Jouets) was formed in 1899 when the French doll firms Jumeau, Bru and Gaultier joined with the German-owned Fleischmann & Bloedel to withstand the flood of cheaper German dolls. Within a year 2,000 workers were producing 15,000 dolls a day, and the company remained in business until 1958.",
      "Molds 60 and 301 were the SFBJ's standard 'dolly face' child dolls and were also used for the famous 'Bleuette', the doll of a French girls' magazine. The back of the neck of a 301 is incised 'SFBJ 301 Paris' with the size number, and the head sits on a French composition-and-wood jointed body. From 1916 the mark 'UNIS FRANCE' was also used."
     ],
-    "pending": "Year of making and height are to be confirmed."
+    "pending": "Year of making is to be confirmed."
    },
    "14": {
     "no": 14,
@@ -1897,7 +1900,7 @@
      ],
      [
       "Artist",
-      "To be confirmed"
+      "Anna Miller"
      ],
      [
       "Made",
@@ -1905,18 +1908,18 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "50 cm"
      ]
     ],
     "about": [
      "A doll dressed for a walk in a grey coat-dress with red piping, a checked vest and a pleated skirt, with a wine-colored ribboned hat, blonde curls and black shoes.",
-     "The collection record calls her 'Emily Jumeau'. This appears to refer to the 'E.J.' bebe, the signature Jumeau doll marked with the initials of Emile Jumeau; the exact mold name is being confirmed."
+     "She was made by Anna Miller, and the collection record calls her 'Emily Jumeau'. This appears to refer to the 'E.J.' bebe, the signature Jumeau doll marked with the initials of Emile Jumeau; the exact mold name is being confirmed."
     ],
     "bg": [
      "Maison Jumeau was started in Paris in the early 1840s by Pierre-Francois Jumeau and by 1848 was already regarded as the foremost doll maker in France. It won a first-place medal at the Great Exhibition in London in 1851 and further prizes in Paris, Vienna and Melbourne, and in 1872 opened its own porcelain factory at Montreuil to fire its own bisque heads.",
      "His son Emile Jumeau introduced the child-like 'bebe' in 1877 and opened the firm's golden age. Heads were incised 'E.J.' from 1881, replaced from 1886-87 by the red stamp 'Depose Tete Jumeau'. The E.J. bebe has a pressed-bisque head, paperweight glass eyes, a closed mouth and separately applied ears. Emile Jumeau was made a Knight of the Legion of Honour in 1889, and the firm joined SFBJ in 1899."
     ],
-    "pending": "The mold name, artist and height are to be confirmed."
+    "pending": "The mold name (whether E.J.) is to be confirmed."
    },
    "15": {
     "no": 15,
@@ -1937,7 +1940,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "49 cm"
      ]
     ],
     "about": [
@@ -1948,7 +1951,7 @@
      "Before the child-like 'bebe' appeared, the mainstream of French dollmaking was the 'poupee', the fashion doll with an adult woman's figure. Jumeau showed porcelain-headed fashion dolls in 1855 and sold them dressed in the latest Paris fashions on kid bodies. Records note that 65 seamstresses, tailors, leather workers and hat trimmers were employed on the costumes alone; the clothes were the heart of the product.",
      "Fashion dolls gave way to bebes in the early 1880s, but today's porcelain artists love them as a canvas for recreating period dress. The painstaking costume of this doll carries on that tradition."
     ],
-    "pending": "The origin of the name 'Stobe', the exact mold and the height are to be confirmed."
+    "pending": "The origin of the name 'Stobe' and the exact mold are to be confirmed."
    },
    "16": {
     "no": 16,
@@ -1969,18 +1972,22 @@
      ],
      [
       "Artist",
-      "To be confirmed"
+      "Anna Miller"
+     ],
+     [
+      "Height",
+      "65 cm"
      ]
     ],
     "about": [
      "A red-haired doll in a gown in the style of Elizabethan England of the sixteenth century: a pink satin gown with a brocade forepart, chains of pearls and ornaments, and the hood-shaped headdress fashionable at the time.",
-     "The head reproduces a French Jumeau doll from a mold by Virginia LaVorgna. The costume was made together with Bob Severns."
+     "The head reproduces a French Jumeau doll from a mold by Virginia LaVorgna and was made by Anna Miller. The costume was made together with Bob Severns."
     ],
     "bg": [
      "Virginia LaVorgna was a dollmaker and businesswoman in Cedar Hill, Texas, who created a popular line of china paints and reproduction molds of antique dolls. She worked with the mold maker Stan Shelsky and named her molds after her six granddaughters. Her products came with photographic painting guides that were a great help to beginners; in January 2024 the line became part of The Bell Collection.",
      "Bob Severns, a winner of the D.A.G Millie award, has taught French fashion dolls and period costume for more than thirty years. In his seminars students learn not only to make the head but also to research and recreate the dress of a particular era, as here."
     ],
-    "pending": "The artist and height are to be confirmed."
+    "pending": ""
    },
    "17": {
     "no": 17,
@@ -1997,7 +2004,7 @@
      ],
      [
       "Artist",
-      "To be confirmed"
+      "Anna Miller"
      ],
      [
       "Original sculpt",
@@ -2005,23 +2012,23 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "60 cm"
      ]
     ],
     "about": [
      "'Annika' has a brown bob with a red bow and wears a three-tiered red polka-dot dress. Her slightly downcast eyes and calm expression, so different from the big round eyes of an antique doll, are typical of the modern artist doll.",
-     "She is a modern reproduction made from a mold of a contemporary artist's sculpt; the sculptor and the maker are being confirmed."
+     "She is a modern reproduction made by Anna Miller from a mold of a contemporary artist's sculpt; the sculptor is being confirmed."
     ],
     "bg": [
      "Porcelain dollmaking took off as a hobby in the United States in the 1970s. At first it centered on reproductions cast from antique dolls, but a 'modern doll' field soon grew up in which contemporary artists sculpted their own originals and sold the molds. Some companies, such as Expressions, founded by Dianna Effner in Missouri, specialized entirely in artist-designed molds.",
      "Modern dolls aim at the natural expression and proportions of a real child and at contemporary dress, and the D.A.G curriculum has a separate 'Beautiful Doll (Modern)' track alongside antique reproduction. The painting, too, differs from antique reproduction in its emphasis on realistic eyes and skin tones."
     ],
-    "pending": "The sculptor, maker and height are to be confirmed."
+    "pending": "The sculptor of the original is to be confirmed."
    },
    "18": {
     "no": 18,
-    "title": "(Name to be confirmed) - Shirley Lloyd",
-    "subtitle": "Antique Reproduction",
+    "title": "April the Flirt",
+    "subtitle": "German Antique Reproduction",
     "info": [
      [
       "Artist",
@@ -2029,26 +2036,31 @@
      ],
      [
       "Original",
-      "To be confirmed"
+      "Kammer & Reinhardt (Germany), flirty-eyed model"
+     ],
+     [
+      "Mold",
+      "Seeley's"
+     ],
+     [
+      "Height",
+      "60 cm"
      ],
      [
       "Made",
       "To be confirmed"
-     ],
-     [
-      "Height",
-      "To be confirmed"
      ]
     ],
     "about": [
-     "A doll in a ruffled white lace bonnet and a pale pink dress, with brown hair and dark eyes. The back of her head is incised 'SEL', and every reproduction doll in this collection bearing those initials is the work of Shirley Lloyd.",
-     "Shirley Lloyd was the mother of the Canadian porcelain doll artist Lynn Harrison. She made dolls to the age of 100 and passed away a few years ago in December. The collection includes several of her dolls (Nos. 24, 25, 26 and 32) and two she made together with her daughter (Nos. 21 and 22)."
+     "'April the Flirt' wears a ruffled white lace bonnet and a pale pink dress, with brown hair and dark eyes. Shirley Lloyd made her from a Seeley's mold as a reproduction of a Kammer & Reinhardt antique, and the back of her head is incised 'SEL'.",
+     "The name 'Flirt' comes from the original doll's 'flirty eyes', which glance from side to side. Whether this reproduction's eyes actually move is being checked; if they do not, they were set looking to the side to keep the original's expression.",
+     "Shirley Lloyd was the mother of the Canadian porcelain doll artist Lynn Harrison; she made dolls to the age of 100 and passed away a few years ago in December. Several of her dolls are in this collection (Nos. 21, 22, 24, 25, 26 and 32)."
     ],
     "bg": [
-     "On a reproduction doll the artist's initials are both a signature and a mark of honesty. They are incised, together with the year, on the back of the head or the shoulder plate while the piece is still unfired greenware. Antique dolls carry no such personal signature, so the initials alone identify a doll as a reproduction.",
-     "The making of a porcelain doll goes like this. Liquid clay (slip) is poured into a plaster mold and left to set, the cast is removed and its seams cleaned, and the piece is fired in a kiln at more than 1,200 degrees Celsius. Brows, lashes, lips and cheeks are then painted with china paints and the piece is fired again, several times over, to build up skin tone and expression. Finally the glass eyes are set, the wig glued on, and the joints strung with elastic."
+     "Flirty eyes add to the sleep-eye mechanism a sideways movement: when the head is tilted the eyes roll from side to side, giving the doll a coquettish glance. Kammer & Reinhardt introduced the open-mouthed, flirty-eyed 117N 'Mein Neuer Liebling' (My New Darling) around 1916, and such eyes were very popular on German dolls of the 1910s and 20s.",
+     "On a reproduction doll the artist's initials are both a signature and a mark of honesty. They are incised, with the year, on the back of the head while the piece is still unfired greenware; antique dolls carry no such personal signature, so the initials alone identify a reproduction."
     ],
-    "pending": "The original doll, year of making and height are to be confirmed."
+    "pending": ""
    },
    "19": {
     "no": 19,
@@ -2061,11 +2073,11 @@
      ],
      [
       "Artist",
-      "To be confirmed (initials on back of head)"
+      "Eyes painted by Dianna Effner herself (modern doll reproduction)"
      ],
      [
       "Height",
-      "To be confirmed (mold made in 14 in. and 18 in.)"
+      "48 cm"
      ],
      [
       "Made",
@@ -2073,14 +2085,14 @@
      ]
     ],
     "about": [
-     "'Emily' has blonde curls with a white hair ribbon and wears a striped dress with a white eyelet-lace collar and a cameo pendant. She reproduces a sculpt by Dianna Effner, one of America's leading doll sculptors; the maker is being confirmed from the initials on the back of the head.",
+     "'Emily' has blonde curls with a white hair ribbon and wears a striped dress with a white eyelet-lace collar and a cameo pendant. She reproduces a sculpt by Dianna Effner, one of America's leading doll sculptors, and according to the collection record her eyes were painted by Effner herself.",
      "Emily was a mold in the 'Child Series' of Effner's company Expressions, offered in 14-inch and 18-inch sizes; finished examples date from around 1991."
     ],
     "bg": [
      "Dianna Effner (1945-2020) was born in Utah, studied art at Bradley University and began sculpting dolls in 1976. Elected to the National Institute of American Doll Artists (NIADA) in 1990, she founded Expressions Inc. with her husband Randall in Jamestown, Missouri, and became a pioneer in supplying artist-designed molds to hobby dollmakers. She turned a pre-Civil War mercantile building into a studio where she held seminars.",
      "She founded the Doll Dreamers' Guild to teach her realistic eye-painting technique, 'DEEP' (Dianna Effner Eye Painting), and was widely loved for her 13-inch vinyl 'Little Darlings'. She also designed dolls for Ashton-Drake, Boneka of Germany and other companies."
     ],
-    "pending": "The artist and height are to be confirmed."
+    "pending": "Whether Effner herself also cast and assembled the porcelain is to be confirmed."
    },
    "20": {
     "no": 20,
@@ -2101,7 +2113,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "75 cm"
      ]
     ],
     "about": [
@@ -2112,7 +2124,7 @@
      "Wladziu Valentino Liberace (1919-1987), born in Wisconsin, was a pianist and showman. His television show, broadcast from 1953, made him a national star, and in Las Vegas in the 1970s and 80s he earned 300,000 dollars a week, the highest-paid performer of his day. A candelabra on the piano, pianos covered in rhinestones and mirrors, ostrich-feather and mink capes and enormous jeweled rings were his trademarks; he called himself 'a one-man Disneyland'. His last performance was at Radio City Music Hall in New York in November 1986.",
      "Rose Pinkul is an American doll sculptor who issued numbered plaster molds under the name 'Rose Pinkul Originals' in the 1990s: 27-inch lady dolls (Jasmine, Bess, Lynette, Amanda), 28-inch men (Ivan, Shaun) and children such as Poppy and Charlotte, all sized to be shown together as couples and families."
     ],
-    "pending": "The height is to be confirmed. Photographs of the doll being made are kept separately."
+    "pending": "Photographs of the doll being made are kept separately."
    },
    "21": {
     "no": 21,
@@ -2133,7 +2145,7 @@
      ],
      [
       "Height",
-      "About 23 in. (58 cm) by mold; measured height to be confirmed"
+      "Estelle 65 cm, Harte 68 cm"
      ]
     ],
     "about": [
@@ -2144,7 +2156,7 @@
      "In the late 1990s Ron Booker created the 23-inch lady 'Estella' for Seeley's 'Lady Series', a sculpt emphasizing feminine grace with a slightly turned head, a slender neck, arms bent at elbow and wrist and pointed toes; it was presented in Doll Artisan magazine in 1997. He followed her with the gentleman 'Harte' as her companion, and doll magazines of 1999-2001 showed this male doll transformed into characters from Leonardo da Vinci to the Phantom of the Opera.",
      "Seeley's, founded by Mildred Seeley in Oneonta, New York, in 1946, supplied everything the porcelain dollmaker needed, from molds taken from antique dolls to porcelain slip, china paints, bodies and costume patterns, and became the center of the hobby worldwide. After Rolf Ericson bought the company in 1977 the Doll Artisan Guild was founded, and at its peak in the 1990s Seeley's exported to more than thirty countries."
     ],
-    "pending": "The measured height is to be confirmed."
+    "pending": ""
    },
    "22": {
     "no": 22,
@@ -2165,7 +2177,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "Bride 65 cm, Sean 70 cm"
      ]
     ],
     "about": [
@@ -2176,7 +2188,7 @@
      "Rose Pinkul is an American doll sculptor and porcelain-doll costume designer who issued her sculpts and molds as 'Rose Pinkul Originals' in the 1990s. Each mold carries a number and a part code, HE for head, A for arms and L for legs, and the line was planned as a family: 27-inch ladies, 28-inch men and an 18-inch child, 'Charlotte', sized to go with them.",
      "Adult male dolls are comparatively rare in the porcelain doll world. A male sculpt needs a broad chest and masculine hands, and the costume, a suit or a stage outfit, has to be tailored in miniature, so a couple or a wedding set takes twice the care."
     ],
-    "pending": "The lady's name and the height are to be confirmed."
+    "pending": "The lady's name is to be confirmed."
    },
    "23": {
     "no": 23,
@@ -2197,7 +2209,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "70 cm"
      ]
     ],
     "about": [
@@ -2208,7 +2220,7 @@
      "Bunny Morris and Paul Jackson are a sculpting team whose molds were published through Seeley's: the 18-inch all-porcelain child 'Angel', the bust 'Claire', the 30-inch teen 'Daisy Garland' and a fairy series. Bunny Morris is also known for the 'Dollies Galore' collection of 5-inch 'Popit' dolls with interchangeable pop-in limbs.",
      "Seminar-only molds are a distinctive tradition of porcelain dollmaking. When an artist reserves a sculpt for the seminars she teaches rather than selling the mold, the participants learn her painting and costuming methods first-hand while completing a strictly limited number of dolls. Such a doll carries the record of the seminar along with the artist's touch."
     ],
-    "pending": "The height is to be confirmed."
+    "pending": ""
    },
    "24": {
     "no": 24,
@@ -2229,7 +2241,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "65 cm"
      ]
     ],
     "about": [
@@ -2240,7 +2252,7 @@
      "The 'lady doll', with the figure of an adult woman, is a tradition that goes back to the Paris fashion dolls (poupees) of the nineteenth century. Those dolls also carried the latest Paris fashions to the provinces and abroad, and were sold with dresses, hats, gloves and fans.",
      "Today's porcelain lady dolls are made from artists' molds such as those of Rose Pinkul and Vicki Hamilton, and the maker researches and tailors the period costume in miniature, making the hats and accessories herself. Shirley Lloyd left several lady dolls in this collection (Nos. 24, 25, 26 and 32), each with a costume and accessories from a different era and mood."
     ],
-    "pending": "The sculpt, year of making and height are to be confirmed."
+    "pending": "The sculpt and year of making are to be confirmed."
    },
    "25": {
     "no": 25,
@@ -2261,7 +2273,7 @@
      ],
      [
       "Height",
-      "To be confirmed (24 in., about 61 cm, by mold)"
+      "56 cm"
      ]
     ],
     "about": [
@@ -2272,7 +2284,7 @@
      "Vicki Hamilton is an American doll sculptor who issued V-numbered molds under the name 'Vicki's Original Designs' in the 1990s. Her specialty was the adult-figured fashion doll in several sizes: 'Elizabeth' came in 11.5-inch, 18-inch and 36-inch versions and 'Rebecca' as a 24-inch fashion lady. The 24-inch 'Vicki Lynn' mold is still sold with Southern Belle, Victorian and Queen Elizabeth I costume patterns.",
      "A fashion-lady sculpt is designed so that the angles of shoulders, waist and arms show off the costume, giving the maker every chance to express herself through dress and jewelry. The same sculpt becomes an entirely different person depending on the era of the clothes she wears."
     ],
-    "pending": "Year of making and measured height are to be confirmed."
+    "pending": "Year of making is to be confirmed."
    },
    "26": {
     "no": 26,
@@ -2294,6 +2306,10 @@
      [
       "Partner",
       "The King (Harte sculpt, rust-colored costume)"
+     ],
+     [
+      "Height",
+      "60 cm"
      ]
     ],
     "about": [
@@ -2304,7 +2320,7 @@
      "'The King and I' (1956) is a musical film produced by 20th Century-Fox and directed by Walter Lang, based on the 1951 Broadway musical by Rodgers and Hammerstein. Deborah Kerr played Anna Leonowens, governess to the Siamese court, and Yul Brynner played King Mongkut, winning the Academy Award for Best Actor. The film won five Academy Awards in all, including Best Costume Design for Irene Sharaff.",
      "The doll's wide taffeta skirt and glowing colors recall Anna's sweeping ball gown in the film."
     ],
-    "pending": "Year of making and height are to be confirmed. The partner doll (the King) is awaiting a leg repair."
+    "pending": "Year of making is to be confirmed. The partner doll (the King) is awaiting a leg repair."
    },
    "27": {
     "no": 27,
@@ -2325,7 +2341,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "47 cm"
      ]
     ],
     "about": [
@@ -2336,7 +2352,7 @@
      "'Parian' is the collectors' term for shoulder-head dolls of untinted white bisque made mainly in Germany from about 1860 to 1880. The name comes from the white marble of the Greek island of Paros, and the heads were mounted on cloth bodies. Elaborately modeled hairstyles were often molded together with feathers, flowers, ribbons and gold-lustre combs and earrings, and the eyes were either painted or glass.",
      "The hairstyle dates the doll: a center parting with a hairnet in the early 1860s, and from the late 1860s to the mid-1870s hair piled high on the crown in braids and rolls. The leading makers were Alt, Beck & Gottschalck, Kling, and Dornheim, Koch & Fischer."
     ],
-    "pending": "The exact name and number of the 'Elisa' mold and the height are to be confirmed."
+    "pending": "The exact name and number of the 'Elisa' mold are to be confirmed."
    },
    "28": {
     "no": 28,
@@ -2357,7 +2373,7 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "47 cm"
      ]
     ],
     "about": [
@@ -2368,7 +2384,7 @@
      "A Seeley's Dollmaker's Worksheet accompanies each mold with the history and characteristics of the original doll, the body and costume pattern numbers to use, and painting notes, so that the maker can produce a faithful reproduction. Seeley's parian molds include, besides Marie Louise (S628), several named after nineteenth-century European ladies such as Sisi, Lady Stanhope and Queen Louise of Prussia.",
      "Alt, Beck & Gottschalck was a porcelain factory founded in 1854 in Nauendorf, Thuringia. Starting with lady shoulder heads in the 1860s, it became one of the leading makers of parian and china heads, adding more elaborate curls and ornaments in the 1870s."
     ],
-    "pending": "The collection record gives the same name 'Elisa' as No. 27, but the accompanying worksheet is for 'Marie Louise'. The exact mold name and the height are to be confirmed."
+    "pending": "The collection record gives the same name 'Elisa' as No. 27, but the accompanying worksheet is for 'Marie Louise'. The exact mold name is to be confirmed."
    },
    "29": {
     "no": 29,
@@ -2389,18 +2405,18 @@
      ],
      [
       "Height",
-      "To be confirmed"
+      "62 cm"
      ]
     ],
     "about": [
      "A doll with long blonde braids in a white lace dress trimmed with pink roses and ribbons. Unlike an antique reproduction she is a modern doll from a contemporary sculpt, made by Anna Miller.",
-     "The collection holds several dolls by Anna Miller. Beside faithful antique reproductions, the French SFBJ 301 'Joy' (No. 13), the Jumeau lady (No. 15), the German toddler 'Ruth' (No. 12) and a French bebe (No. 11), stands this modern doll, so that the breadth of one artist's work can be compared."
+     "The collection holds several dolls by Anna Miller. Beside faithful antique reproductions, the French SFBJ 301 'Joy' (No. 13), the Jumeau reproductions (Nos. 14 and 16), the Jumeau lady (No. 15), the German Mein Liebling (No. 10) and toddler 'Ruth' (No. 12) and a French bebe (No. 11), stand her modern dolls 'Annika' (No. 17) and this one, so that the breadth of one artist's work can be compared."
     ],
     "bg": [
      "Antique reproduction and the modern doll use the same porcelain techniques but aim at different things. Reproduction seeks to bring back the face, painting and dress of an original made a century ago as faithfully as possible, down to a single stroke of the eyebrow and the depth of color on the cheek. The modern doll adds the maker's own interpretation to a contemporary sculpt, with realistic eyes, natural skin tones and today's clothes.",
      "The D.A.G curriculum is likewise divided into two tracks, antique reproduction (Apprentice) and modern (Beautiful Doll), and a maker who has completed both moves freely between the two worlds."
     ],
-    "pending": "The doll's name, sculpt and height are to be confirmed."
+    "pending": "The doll's name and sculpt are to be confirmed."
    },
    "30": {
     "no": 30,

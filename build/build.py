@@ -62,13 +62,14 @@ T = {
 }
 FEATURED = [2, 35, 9, 21, 20, 25]
 HERO = [1, 2, 22]
-KIND_GROUPS = {0: [0], 1: [2, 3, 4], 2: [5]}  # 원본 여부 확인 중(1), 확인 중(6) 그룹은 제외  # 종류 카드 -> 그룹 인덱스
+KIND_GROUPS = {0: [0], 1: [2, 3, 4], 2: [5]}  # 종류 카드 -> 그룹 인덱스 (원본 여부 확인 중(1) 그룹은 제외)
 
 # ---------- images ----------
 def build_images():
     d = os.path.join(OUT, "assets", "img"); os.makedirs(d, exist_ok=True)
     for n in IDS:
-        src = [f for f in glob.glob(os.path.join(ROOT, f"{n}.*")) if re.search(r"\.(jpe?g|png)$", f, re.I)][0]
+        cands = glob.glob(os.path.join(ROOT, "dolls", f"{n:02d}_*", f"{n}.*")) + glob.glob(os.path.join(ROOT, f"{n}.*"))  # 2026-09-26: 사진은 dolls/NN_이름/ 폴더로 이동
+        src = [f for f in cands if re.search(r"\.(jpe?g|png)$", f, re.I)][0]
         im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
         for size, suf, q in ((1600, "l", 84), (720, "m", 80)):
             t = im.copy(); t.thumbnail((size, size), Image.LANCZOS)
@@ -79,7 +80,8 @@ def build_images():
     # 홈 공유 이미지: 3장 가로 배치
     og = Image.new("RGB", (1200, 630), (247, 242, 234))
     for i, n in enumerate(HERO):
-        im = ImageOps.exif_transpose(Image.open([f for f in glob.glob(os.path.join(ROOT, f"{n}.*"))][0])).convert("RGB")
+        cands = glob.glob(os.path.join(ROOT, "dolls", f"{n:02d}_*", f"{n}.*")) + glob.glob(os.path.join(ROOT, f"{n}.*"))
+        im = ImageOps.exif_transpose(Image.open([f for f in cands if re.search(r"\.(jpe?g|png)$", f, re.I)][0])).convert("RGB")
         og.paste(ImageOps.fit(im, (400, 630), Image.LANCZOS, centering=(0.5, 0.3)), (i * 400, 0))
     og.save(os.path.join(d, "og-home.jpg"), quality=80, optimize=True)
 
