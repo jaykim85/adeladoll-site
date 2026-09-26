@@ -12,54 +12,23 @@ SITE = json.load(open(os.path.join(HERE, "site.json"), encoding="utf-8"))
 SALES = json.load(open(os.path.join(HERE, "sales.json"), encoding="utf-8"))["dolls"]
 e = html.escape
 IDS = list(range(1, 36))
-UNCONF = ("확인 중", "To be confirmed")
 
-T = {
- "ko": dict(prefix="", other="en", other_label="EN", lang_name="한국어",
-   nav_collection="컬렉션", nav_about="인형 이야기", nav_visit="방문 / 문의",
-   site_desc="Adela Art Doll - 앤틱 비스크 돌과 아티스트 리프로덕션 포슬린 인형 전시관. 독일, 프랑스 앤틱 원본과 복제, 모던 아티스트 돌 35점을 소개합니다.",
-   hero_kicker="Porcelain Doll Gallery", hero_title="시간을 건너온<br>포슬린 인형들",
-   hero_text="독일과 프랑스의 앤틱 비스크 돌부터 현대 작가의 아티스트 돌까지, 한 점 한 점의 이야기를 담은 35점의 인형을 소개합니다.",
-   cta_collection="컬렉션 보기", cta_insta="인스타그램",
-   kinds_title="세 종류의 인형", featured_title="컬렉션 하이라이트", see_all="전체 컬렉션 보기",
-   collection_title="컬렉션", collection_lead="전시 중인 포슬린 인형 35점입니다. 인형을 누르면 자세한 이야기를 볼 수 있습니다.",
-   all="전체", about_doll="이 인형에 대하여", background="배경 이야기", details="기본 정보",
-   prev="이전", next="다음", back="컬렉션으로",
-   inquire="인스타그램으로 문의", buy_store="네이버 스마트스토어에서 구매", buy_etsy="Etsy에서 구매 (해외)",
-   st_exhibit="전시 중", st_available="판매 중", st_reserved="예약 중", st_sold="판매 완료",
-   inquiry_note="이 인형에 관한 문의는 인스타그램 메시지로 편하게 남겨 주세요.",
-   about_title="인형 이야기", about_lead="포슬린 인형을 처음 보시는 분들을 위한 짧은 안내입니다.",
-   terms_title="자주 나오는 용어", sources_title="참고 자료",
-   visit_title="방문 / 문의", visit_lead="전시 관람과 인형 구매에 관한 문의를 기다립니다.",
-   v_insta="인스타그램", v_insta_text="새 소식과 인형 사진을 가장 먼저 올립니다. 문의는 DM으로 받습니다.",
-   v_shop="온라인 구매", v_shop_ko="국내 구매: 네이버 스마트스토어", v_shop_en="해외 구매: Etsy",
-   v_soon="준비 중입니다", v_addr="주소", v_hours="관람 시간", v_email="이메일", v_phone="전화", v_map="지도 보기",
-   biz="사업자 정보", biz_name="상호", biz_owner="대표", biz_reg="사업자등록번호", biz_mail="통신판매업 신고번호",
-   nf_title="페이지를 찾을 수 없습니다", nf_text="주소가 바뀌었거나 없는 페이지입니다.", home="처음으로",
-   dolls_count="점"),
- "en": dict(prefix="/en", other="ko", other_label="한국어", lang_name="English",
-   nav_collection="Collection", nav_about="About the Dolls", nav_visit="Visit & Contact",
-   site_desc="Adela Art Doll - a gallery of antique bisque dolls and artist reproductions in Korea. 35 porcelain dolls: German and French antiques, reproductions and modern artist dolls.",
-   hero_kicker="Porcelain Doll Gallery", hero_title="Porcelain dolls<br>across the years",
-   hero_text="From German and French antique bisque dolls to the work of today's doll artists: 35 dolls, each with its own story.",
-   cta_collection="View the collection", cta_insta="Instagram",
-   kinds_title="Three kinds of dolls", featured_title="Highlights", see_all="See the full collection",
-   collection_title="Collection", collection_lead="The 35 porcelain dolls on exhibition. Select a doll to read its story.",
-   all="All", about_doll="About this doll", background="Background", details="Details",
-   prev="Previous", next="Next", back="Back to collection",
-   inquire="Ask on Instagram", buy_store="Buy on Naver Smart Store (Korea)", buy_etsy="Buy on Etsy",
-   st_exhibit="On exhibition", st_available="Available", st_reserved="Reserved", st_sold="Sold",
-   inquiry_note="For questions about this doll, please send us a message on Instagram.",
-   about_title="About the Dolls", about_lead="A short guide for anyone new to porcelain dolls.",
-   terms_title="Terms you will meet", sources_title="Sources",
-   visit_title="Visit & Contact", visit_lead="We welcome questions about the exhibition and about buying a doll.",
-   v_insta="Instagram", v_insta_text="New dolls and news appear here first. Send us a DM with any question.",
-   v_shop="Buy online", v_shop_ko="In Korea: Naver Smart Store", v_shop_en="International: Etsy",
-   v_soon="Coming soon", v_addr="Address", v_hours="Opening hours", v_email="Email", v_phone="Phone", v_map="Open map",
-   biz="Business information", biz_name="Business name", biz_owner="Owner", biz_reg="Business registration no.", biz_mail="Mail-order business no.",
-   nf_title="Page not found", nf_text="The page may have moved or no longer exists.", home="Home",
-   dolls_count=" dolls"),
-}
+# ---------- languages ----------
+# 언어 추가 순서: booklet_src 에 content_<lang>.js / ui_<lang>.js 작성 -> gen_content.py 의 LANGS -> 여기 LANGS/HREFLANG/OG_LOCALE/FONTS -> ui_strings.json 에 문구 -> site.json 에 address_/hours_
+LANGS = ["ko", "en", "ja", "zh", "zh-tw", "de", "fr", "es", "it"]          # 첫 번째(ko)가 루트, 나머지는 /<lang>/
+HREFLANG = {"ko": "ko", "en": "en", "ja": "ja", "zh": "zh-Hans", "zh-tw": "zh-Hant", "de": "de", "fr": "fr", "es": "es", "it": "it"}
+OG_LOCALE = {"ko": "ko_KR", "en": "en_US", "ja": "ja_JP", "zh": "zh_CN", "zh-tw": "zh_TW", "de": "de_DE", "fr": "fr_FR", "es": "es_ES", "it": "it_IT"}
+LATIN_FONTS = "family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500"
+FONTS = {"ko": "&family=Noto+Serif+KR:wght@500;600&family=Noto+Sans+KR:wght@400;500;600",
+         "ja": "&family=Noto+Serif+JP:wght@500;600&family=Noto+Sans+JP:wght@400;500;600",
+         "zh": "&family=Noto+Serif+SC:wght@500;600&family=Noto+Sans+SC:wght@400;500;600",
+         "zh-tw": "&family=Noto+Serif+TC:wght@500;600&family=Noto+Sans+TC:wght@400;500;600"}
+T = json.load(open(os.path.join(HERE, "ui_strings.json"), encoding="utf-8"))   # 화면 문구 (언어별)
+for _l in LANGS:
+    assert _l in T and _l in C, f"missing language {_l}"
+    T[_l]["prefix"] = "" if _l == LANGS[0] else "/" + _l
+UNCONF = tuple(T[l]["tbc"] for l in LANGS)      # '확인 중' 값은 사이트에 표시하지 않음
+
 FEATURED = [2, 35, 9, 21, 20, 25]
 HERO = [1, 2, 22]
 KIND_GROUPS = {0: [0], 1: [2, 3, 4], 2: [5]}  # 종류 카드 -> 그룹 인덱스 (원본 여부 확인 중(1) 그룹은 제외)
@@ -102,14 +71,27 @@ def kind_split(s):
     a, b = s.split("  ", 1); return a, b
 
 def page(lang, path, title, desc, body, og_img="og-home.jpg", alt_path=None, extra_head=""):
-    t = T[lang]; other = t["other"]
+    t = T[lang]
     alt_path = path if alt_path is None else alt_path
-    full_title = f"{title} | Adela Art Doll" if title else "Adela Art Doll | " + ("포슬린 인형 전시관" if lang == "ko" else "Porcelain Doll Gallery")
+    full_title = f"{title} | Adela Art Doll" if title else "Adela Art Doll | " + t["tagline"]
     canon = SITE["domain"] + url(lang, path)
     nav = [("collection/", t["nav_collection"]), ("about/", t["nav_about"]), ("visit/", t["nav_visit"])]
     CUR = ' aria-current="page"'
     navh = "".join(f'<a href="{url(lang,p)}"{CUR if path.startswith(p) else ""}>{e(l)}</a>' for p, l in nav)
-    fonts = "family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Noto+Serif+KR:wght@500;600&family=Noto+Sans+KR:wght@400;500;600"
+    fonts = LATIN_FONTS + FONTS.get(lang, "")
+    alts = "".join(f'<link rel="alternate" hreflang="{HREFLANG[l]}" href="{SITE["domain"]}{url(l, alt_path)}">\n' for l in LANGS)
+    alts += f'<link rel="alternate" hreflang="x-default" href="{SITE["domain"]}{url(LANGS[0], alt_path)}">'
+    # 언어 메뉴: 현재 언어를 제목으로, 나머지를 목록으로 (JS 없이 동작)
+    CURL = ' aria-current="true"'
+    lang_items = "".join(f'<li><a href="{url(l, alt_path)}" hreflang="{HREFLANG[l]}" lang="{HREFLANG[l]}" data-lang="{l}"{CURL if l == lang else ""}>{e(T[l]["lang_name"])}</a></li>' for l in LANGS)
+    lang_menu = f'<details class="lang"><summary aria-label="Language">{e(t["lang_name"])}</summary><ul>{lang_items}</ul></details>'
+    # 첫 방문 시 홈(/)에서만 브라우저 언어에 맞는 홈으로 이동. 언어 메뉴에서 고른 언어는 localStorage(adela_lang)에 저장되어 그 뒤로는 그 언어로 이동
+    redirect = ""
+    if lang == LANGS[0] and path == "":
+        redirect = ("<script>(function(){try{if(location.pathname!=='/')return;var L=" + json.dumps(LANGS) + ";var l=localStorage.getItem('adela_lang');"
+                    "if(!l){var n=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();"
+                    "if(n.indexOf('zh')===0){l=/tw|hk|mo|hant/.test(n)?'zh-tw':'zh';}else{l=n.slice(0,2);}if(L.indexOf(l)<0)l='en';}"
+                    "if(l!==L[0]&&L.indexOf(l)>=0)location.replace('/'+l+'/'+location.search+location.hash);}catch(e){}})();</script>\n")
     foot_biz = ""
     bi = [(t["biz_name"], SITE["biz_name"]), (t["biz_owner"], SITE["biz_owner"]), (t["biz_reg"], SITE["biz_reg_no"]), (t["biz_mail"], SITE["mail_order_no"])]
     bi = [x for x in bi if x[1]]
@@ -118,36 +100,34 @@ def page(lang, path, title, desc, body, og_img="og-home.jpg", alt_path=None, ext
     if SITE.get("google_site_verification"): verify += f'<meta name="google-site-verification" content="{e(SITE["google_site_verification"])}">\n'
     if SITE.get("naver_site_verification"): verify += f'<meta name="naver-site-verification" content="{e(SITE["naver_site_verification"])}">\n'
     return f"""<!doctype html>
-<html lang="{lang}">
+<html lang="{HREFLANG[lang]}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(full_title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{canon}">
-<link rel="alternate" hreflang="ko" href="{SITE['domain']}{url('ko', alt_path if lang=='en' else path)}">
-<link rel="alternate" hreflang="en" href="{SITE['domain']}{url('en', alt_path if lang=='ko' else path)}">
-<link rel="alternate" hreflang="x-default" href="{SITE['domain']}{url('ko', alt_path if lang=='en' else path)}">
+{alts}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Adela Art Doll">
 <meta property="og:title" content="{e(full_title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{canon}">
 <meta property="og:image" content="{SITE['domain']}/assets/img/{og_img}">
-<meta property="og:locale" content="{'ko_KR' if lang=='ko' else 'en_US'}">
+<meta property="og:locale" content="{OG_LOCALE[lang]}">
 <meta name="twitter:card" content="summary_large_image">
-{verify}<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+{verify}{redirect}<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?{fonts}&display=swap">
 <link rel="stylesheet" href="/assets/style.css">
 {extra_head}
 </head>
 <body class="lang-{lang}">
-<a class="skip" href="#main">{'본문 바로가기' if lang=='ko' else 'Skip to content'}</a>
+<a class="skip" href="#main">{e(t['skip'])}</a>
 <header class="site-header">
  <div class="wrap bar">
   <a class="brand" href="{url(lang)}"><span class="mono">A</span><span class="wordmark">ADELA ART DOLL</span></a>
-  <nav class="nav" aria-label="main">{navh}<a class="lang" href="{url(other, alt_path)}" hreflang="{other}">{t['other_label']}</a></nav>
+  <nav class="nav" aria-label="main">{navh}{lang_menu}</nav>
  </div>
 </header>
 <main id="main">
@@ -156,7 +136,7 @@ def page(lang, path, title, desc, body, og_img="og-home.jpg", alt_path=None, ext
 <footer class="site-footer">
  <div class="wrap foot">
   <div><a class="brand small" href="{url(lang)}"><span class="mono">A</span><span class="wordmark">ADELA ART DOLL</span></a>
-  <p class="muted">{'포슬린 인형 전시관' if lang=='ko' else 'Porcelain Doll Gallery'}</p></div>
+  <p class="muted">{e(t['tagline'])}</p></div>
   <div class="foot-links"><a href="https://www.instagram.com/{SITE['instagram']}/" rel="noopener" target="_blank">Instagram @{SITE['instagram']}</a>
   <a href="{url(lang,'visit/')}">{e(t['nav_visit'])}</a></div>
  </div>
@@ -203,7 +183,7 @@ def home(lang):
     if SITE.get("address_ko"):
         ld["address"] = {"@type": "PostalAddress", "streetAddress": "경의로256번길 52" if lang == "ko" else "52, Gyeongui-ro 256beon-gil",
                          "addressLocality": "고양시 일산동구" if lang == "ko" else "Ilsandong-gu, Goyang-si",
-                         "addressRegion": "경기도" if lang == "ko" else "Gyeonggi-do", "addressCountry": "KR"}
+                         "addressRegion": "경기도" if lang == "ko" else "Gyeonggi-do", "addressCountry": "KR"}   # 한국어 외에는 로마자 표기
     if SITE.get("opening_hours_schema"): ld["openingHours"] = SITE["opening_hours_schema"]
     head = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>"
     return page(lang, "", "", t["site_desc"], body, extra_head=head)
@@ -213,7 +193,7 @@ def visit_block(lang, full=False):
     rows = []
     if SITE.get("address_" + lang):
         a = e(SITE["address_" + lang])
-        mu = SITE.get("map_url_" + lang) or SITE.get("map_url")
+        mu = SITE.get("map_url_" + lang) or SITE.get("map_url_en") or SITE.get("map_url")   # 한국어는 네이버 지도, 그 외는 구글 지도
         if mu: a += f' <a class="maplink" href="{e(mu)}" target="_blank" rel="noopener">{e(t["v_map"])}</a>'
         rows.append((t["v_addr"], a))
     if SITE.get("hours_" + lang): rows.append((t["v_hours"], e(SITE["hours_" + lang])))
@@ -221,7 +201,7 @@ def visit_block(lang, full=False):
     if SITE.get("phone"): rows.append((t["v_phone"], f'<a href="tel:{e(SITE["phone"])}">{e(SITE["phone"])}</a>'))
     info = "".join(f"<dt>{e(k)}</dt><dd>{v}</dd>" for k, v in rows)
     def shop(label, u):
-        return f'<li><span>{e(label)}</span>' + (f'<a class="btn small" href="{e(u)}" target="_blank" rel="noopener">{"바로가기" if lang=="ko" else "Visit"}</a>' if u else f'<em>{e(t["v_soon"])}</em>') + "</li>"
+        return f'<li><span>{e(label)}</span>' + (f'<a class="btn small" href="{e(u)}" target="_blank" rel="noopener">{e(t["visit_btn"])}</a>' if u else f'<em>{e(t["v_soon"])}</em>') + "</li>"
     shops = shop(t["v_shop_ko"], SITE["smartstore_url"]) + shop(t["v_shop_en"], SITE["etsy_url"])
     h = "h1" if full else "h2"
     return f"""<section class="section visit"><div class="wrap visit-grid">
@@ -285,18 +265,13 @@ def about(lang):
     t = T[lang]; L = C[lang]
     kinds = "".join(f'<article class="kind"><span class="kind-no">0{i+1}</span><h3>{e(kind_split(k)[0])}</h3><p>{e(kind_split(k)[1])}</p></article>' for i, k in enumerate(L["kinds"]))
     terms = "".join(f"<dt>{e(a)}</dt><dd>{e(b)}</dd>" for a, b in L["terms"])
-    # 참고 자료 (책자 마지막 부분) - 첫 줄 제목 제외, '  '로 시작하는 주석 문단 처리
-    tail = L["tail"][2:]
-    src = ""
-    for line in tail:
-        if line.startswith(("공개 자료로 확인되지", "Not confirmed", "Items not")): continue
-        if ":" in line or "(" in line and len(line) > 60: src += f"<li>{e(line)}</li>"
-        elif len(line) < 40: src += f'</ul><h3 class="h-small">{e(line)}</h3><ul class="sources">'
-        else: src += "</ul><p>" + e(line) + '</p><ul class="sources">'
+    # 참고 자료: gen_content.py 가 만든 sources {lead, groups:[[제목,[항목...]]]} (미확인 항목 메모는 사이트에 표시하지 않음)
+    S = L["sources"]
+    src = "".join(f'</ul><h3 class="h-small">{e(name)}</h3><ul class="sources">' + "".join(f"<li>{e(x)}</li>" for x in items) for name, items in S["groups"])
     body = f"""<section class="section page-head"><div class="wrap narrow"><h1 class="sec-title">{e(t['about_title'])}</h1><p class="lead">{e(t['about_lead'])}</p></div></section>
 <section class="section"><div class="wrap"><div class="kinds">{kinds}</div></div></section>
 <section class="section alt"><div class="wrap narrow"><h2 class="sec-title">{e(t['terms_title'])}</h2><dl class="terms">{terms}</dl></div></section>
-<section class="section"><div class="wrap narrow"><h2 class="sec-title">{e(t['sources_title'])}</h2><div class="src"><p>{e(L["tail"][1])}</p><ul class="sources">{src}</ul></div></div></section>"""
+<section class="section"><div class="wrap narrow"><h2 class="sec-title">{e(t['sources_title'])}</h2><div class="src"><p>{e(S["lead"])}</p><ul class="sources">{src}</ul></div></div></section>"""
     return page(lang, "about/", t["about_title"], t["about_lead"], body)
 
 def visit(lang):
@@ -323,20 +298,19 @@ def main():
     if not os.path.isfile(os.path.join(keep, "doll-35-m.jpg")) or os.environ.get("REBUILD_IMAGES"): build_images()
     for f in ("style.css", "site.js", "favicon.svg"): shutil.copy(os.path.join(HERE, "static", f), os.path.join(OUT, "assets", f))
     urls = []
-    for lang in ("ko", "en"):
+    for lang in LANGS:
         pre = T[lang]["prefix"]
         write(pre + "/", home(lang)); write(pre + "/collection/", collection(lang))
         write(pre + "/about/", about(lang)); write(pre + "/visit/", visit(lang))
         for n in IDS: write(pre + f"/dolls/{n:02d}/", detail(lang, n))
         urls += [pre + "/", pre + "/collection/", pre + "/about/", pre + "/visit/"] + [pre + f"/dolls/{n:02d}/" for n in IDS]
-    write("/404.html", notfound("ko"))
-    write("/en/404.html", notfound("en"))
+    for lang in LANGS: write(T[lang]["prefix"] + "/404.html", notfound(lang))   # GitHub Pages 는 루트 /404.html 만 사용
     today = date.today().isoformat()
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"<url><loc>{SITE['domain']}{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n"
     write("/sitemap.xml", sm)
     write("/robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE['domain']}/sitemap.xml\n")
     write("/CNAME", SITE["domain"].replace("https://", "") + "\n")
     write("/.nojekyll", "")
-    print("built", len(urls), "pages ->", OUT)
+    print("built", len(urls), "pages,", len(LANGS), "languages ->", OUT)
 
 if __name__ == "__main__": main()

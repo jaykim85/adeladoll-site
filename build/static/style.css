@@ -25,17 +25,31 @@ a{color:inherit}
 .nav{display:flex;align-items:center;gap:22px;font-size:.95rem}
 .nav a{text-decoration:none;color:var(--ink-2);padding:6px 0;border-bottom:1px solid transparent}
 .nav a:hover,.nav a[aria-current]{color:var(--accent);border-color:var(--accent)}
-.nav .lang{border:1px solid var(--line);padding:4px 10px;border-radius:99px;font-size:.85rem}
-.nav .lang:hover{border-color:var(--accent)}
+/* 언어 메뉴 (details/summary, JS 없이 동작) */
+.nav .lang{position:relative;font-size:.85rem}
+.nav .lang summary{list-style:none;cursor:pointer;border:1px solid var(--line);padding:4px 12px 4px 10px;border-radius:99px;color:var(--ink-2);white-space:nowrap}
+.nav .lang summary::-webkit-details-marker{display:none}
+.nav .lang summary::after{content:"";display:inline-block;width:6px;height:6px;margin-left:8px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-3px) rotate(45deg)}
+.nav .lang summary:hover,.nav .lang[open] summary{border-color:var(--accent);color:var(--accent)}
+.nav .lang ul{position:absolute;right:0;top:calc(100% + 8px);margin:0;padding:6px 0;list-style:none;min-width:150px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:0 10px 30px rgba(43,35,32,.12);z-index:20}
+.nav .lang ul a{display:block;padding:7px 16px;border:0;white-space:nowrap}
+.nav .lang ul a:hover{background:var(--paper-2)}
+.nav .lang ul a[aria-current]{color:var(--accent);font-weight:600}
 
 /* type */
 h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.25;margin:0 0 .5em;color:var(--ink)}
 .lang-ko h1,.lang-ko h2,.lang-ko h3{font-family:var(--serif-ko);letter-spacing:-.01em}
+/* 일본어/중국어: Noto CJK 계열 (build.py FONTS 에서 언어별로 불러옴) */
+.lang-ja{--serif-ko:"Noto Serif JP","Cormorant Garamond",serif;--sans:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif}
+.lang-zh{--serif-ko:"Noto Serif SC","Cormorant Garamond",serif;--sans:"Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.lang-zh-tw{--serif-ko:"Noto Serif TC","Cormorant Garamond",serif;--sans:"Noto Sans TC",system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif}
+.lang-ja h1,.lang-ja h2,.lang-ja h3,.lang-zh h1,.lang-zh h2,.lang-zh h3,.lang-zh-tw h1,.lang-zh-tw h2,.lang-zh-tw h3{font-family:var(--serif-ko);letter-spacing:0}
+.lang-ja,.lang-zh,.lang-zh-tw{word-break:normal}
 .sec-title{font-size:clamp(1.7rem,3vw,2.3rem)}
 .lead{font-size:1.08rem;color:var(--ink-2);max-width:60ch}
 .kicker{font:italic 500 1.15rem var(--serif);color:var(--gold);letter-spacing:.06em;margin:0 0 .6em}
 .h-small{font:600 .82rem/1.4 var(--sans)!important;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)!important;margin:2em 0 .8em}
-.lang-ko .h-small{letter-spacing:.08em}
+.lang-ko .h-small,.lang-ja .h-small,.lang-zh .h-small,.lang-zh-tw .h-small{letter-spacing:.08em}
 
 /* buttons */
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin:1.6em 0 .8em}
