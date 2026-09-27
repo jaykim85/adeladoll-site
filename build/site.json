@@ -8,8 +8,8 @@
  "phone": "",
  "address_ko": "경기도 고양시 일산동구 경의로256번길 52",
  "address_en": "52, Gyeongui-ro 256beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do, Republic of Korea",
- "hours_ko": "목, 금, 토 오전 10시 - 오후 6시 (일-수 휴관)",
- "hours_en": "Thursday to Saturday, 10:00 AM - 6:00 PM (closed Sunday to Wednesday)",
+ "hours_ko": "목, 금, 토 오전 10시 30분 - 오후 6시 (일-수 휴관)",
+ "hours_en": "Thursday to Saturday, 10:30 AM - 6:00 PM (closed Sunday to Wednesday)",
  "biz_name": "",
  "biz_owner": "",
  "biz_reg_no": "",
@@ -19,22 +19,22 @@
  "map_url_ko": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC%20%EA%B2%BD%EC%9D%98%EB%A1%9C256%EB%B2%88%EA%B8%B8%2052",
  "map_url_en": "https://www.google.com/maps/search/?api=1&query=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC%20%EA%B2%BD%EC%9D%98%EB%A1%9C256%EB%B2%88%EA%B8%B8%2052",
  "opening_hours_schema": [
-  "Th 10:00-18:00",
-  "Fr 10:00-18:00",
-  "Sa 10:00-18:00"
+  "Th 10:30-18:00",
+  "Fr 10:30-18:00",
+  "Sa 10:30-18:00"
  ],
  "address_zh": "韩国京畿道高阳市一山东区京义路256街52号 (52, Gyeongui-ro 256beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do)",
- "hours_zh": "周四至周六 10:00 - 18:00(周日至周三闭馆)",
+ "hours_zh": "周四至周六 10:30 - 18:00(周日至周三闭馆)",
  "address_de": "52, Gyeongui-ro 256beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do, Südkorea",
- "hours_de": "Donnerstag bis Samstag, 10:00 bis 18:00 Uhr (Sonntag bis Mittwoch geschlossen)",
+ "hours_de": "Donnerstag bis Samstag, 10:30 bis 18:00 Uhr (Sonntag bis Mittwoch geschlossen)",
  "address_fr": "52, Gyeongui-ro 256beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do, Corée du Sud",
- "hours_fr": "Du jeudi au samedi, de 10 h à 18 h (fermé du dimanche au mercredi)",
+ "hours_fr": "Du jeudi au samedi, de 10 h 30 à 18 h (fermé du dimanche au mercredi)",
  "address_es": "52, Gyeongui-ro 256beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do, Corea del Sur",
- "hours_es": "De jueves a sábado, de 10:00 a 18:00 (cerrado de domingo a miércoles)",
+ "hours_es": "De jueves a sábado, de 10:30 a 18:00 (cerrado de domingo a miércoles)",
  "address_it": "52, Gyeongui-ro 256beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do, Corea del Sud",
- "hours_it": "Da giovedì a sabato, dalle 10:00 alle 18:00 (chiuso da domenica a mercoledì)",
+ "hours_it": "Da giovedì a sabato, dalle 10:30 alle 18:00 (chiuso da domenica a mercoledì)",
  "address_ja": "京畿道高陽市一山東区京義路256番キル52 (52, Gyeongui-ro 256beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do)",
- "hours_ja": "木・金・土 10:00 - 18:00 (日曜から水曜は休館)",
+ "hours_ja": "木・金・土 10:30 - 18:00 (日曜から水曜は休館)",
  "address_zh-tw": "韓國京畿道高陽市一山東區京義路256街52號 (52, Gyeongui-ro 256beon-gil, Ilsandong-gu, Goyang-si, Gyeonggi-do)",
- "hours_zh-tw": "週四至週六 10:00 - 18:00(週日至週三閉館)"
+ "hours_zh-tw": "週四至週六 10:30 - 18:00(週日至週三閉館)"
 }
