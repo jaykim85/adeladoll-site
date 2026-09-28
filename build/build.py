@@ -31,7 +31,9 @@ UNCONF = tuple(T[l]["tbc"] for l in LANGS)      # '확인 중' 값은 사이트�
 
 FEATURED = [2, 35, 9, 21, 20, 25]
 HERO = [1, 2, 22]
-KIND_GROUPS = {0: [0], 1: [2, 3, 4], 2: [5]}  # 종류 카드 -> 그룹 인덱스 (원본 여부 확인 중(1) 그룹은 제외)
+# 종류 카드 -> 목록 그룹 인덱스: 첫 그룹 = 앤틱 원본, 마지막 그룹 = 모던 아티스트 돌, 그 사이 = 복제 (그룹 수가 바뀌어도 자동)
+_NG = len(C["ko"]["groups"])
+KIND_GROUPS = {0: [0], 1: list(range(1, _NG - 1)), 2: [_NG - 1]}
 
 # ---------- images ----------
 def build_images():
