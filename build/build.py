@@ -187,6 +187,8 @@ def home(lang):
                          "addressLocality": "고양시 일산동구" if lang == "ko" else "Ilsandong-gu, Goyang-si",
                          "addressRegion": "경기도" if lang == "ko" else "Gyeonggi-do", "addressCountry": "KR"}   # 한국어 외에는 로마자 표기
     if SITE.get("opening_hours_schema"): ld["openingHours"] = SITE["opening_hours_schema"]
+    _map = SITE.get("map_url_" + lang) or SITE.get("map_url_en")
+    if _map: ld["hasMap"] = _map   # 한국어는 네이버 지도(플레이스), 그 외는 구글 지도
     head = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>"
     return page(lang, "", "", t["site_desc"], body, extra_head=head)
 
